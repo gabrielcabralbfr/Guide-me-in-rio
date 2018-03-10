@@ -1,0 +1,10 @@
+.collapsible-header {
+  position: relative;
+}
+
+.expand-right {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+

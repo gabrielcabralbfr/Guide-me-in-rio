@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Card } from './card.model';
+import { CardService } from './card.service';
+
 
 @Component({
   selector: 'app-banner',
@@ -7,9 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerComponent implements OnInit {
 
-  constructor() { }
+  cards: Card[];
+
+  constructor(private cardService: CardService) { }
 
   ngOnInit() {
+    this.cardService
+    .cards()
+    .subscribe(response => this.cards = response);
   }
 
 }

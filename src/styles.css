@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
+:root {
+  --theme-bg-color: #000;
+  --body-bg-color: #f1f1f1;
+}
+
 body,
 html {
   width: 100%;
@@ -7,5 +12,11 @@ html {
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: var(--body-bg-color) !important
+}
+
+.banner-content .btn,
+footer,
+nav {
+  background-color: var(--theme-bg-color) !important;
 }

@@ -1,0 +1,41 @@
+.collapsible li.active i.expand-right {
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+  transition-duration: 0.7s;
+  -ms-transition-duration: 0.7s;
+  -webkit-transition-duration: 0.7s;
+}
+
+.collapsible li i.expand-right {
+  transition-duration: 0.7s;
+  -ms-transition-duration: 0.7s;
+  -webkit-transition-duration: 0.7s;
+}
+
+.checked {
+  color: orange;
+}
+
+.strong {
+  font-weight: 700;
+}
+
+.open:after {
+  content: "Aberto agora";
+  color: green;
+}
+
+.closed:before {
+  content: "Fechado agora";
+  color: red;
+}
+
+p {
+  margin-bottom: 20px !important;
+}
+
+.place-icon > img{
+  width: 30px;
+  height: auto;
+}

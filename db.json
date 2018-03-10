@@ -1,0 +1,950 @@
+{
+  "sample": [
+    {
+      "title": "Praia de Copacabana",
+      "description":
+        "Praia mais famosa entre os cariocas, localizada na Zona Sul da cidade. Possui estacionamentos ao redor alguns estacionamentos privados nas ruas de acesso",
+      "imagePath": "assets/copa.jpeg"
+    },
+    {
+      "title": "Teatro Miguel Falabella",
+      "description":
+        "Teatro onde ocorrem peças e shows de variados gêneros e gostos. Localizado no NorteShopping no bairro do Cachambi - Zona Norte",
+      "imagePath": "assets/teatro-miguel-falabella.jpg"
+    },
+    {
+      "title": "Lapa",
+      "description":
+        "Ponto turístico mais frequentado da noite carioca. Nele encontra-se a Escadaria Selarón, muito famosa por suas obras de arte.",
+      "imagePath": "assets/lapa.jpg"
+    }
+  ],
+  "teste": {
+    "html_attributions": [],
+    "next_page_token":
+      "CqQCFAEAAOsnmGskWAKEegP7F_2wLYbn1jVsQf92o6alSMOpB8z66VIBEttO9LVNQrXP3OtSTEp2xYuqKFii7GbAZo85aDPFkJa36mnR1O4_bbX3lAJxMcoawSO2XYLu-6qEJzGjKN0Jo-tt6O5DTBx14-m8et7zlGaovShbyJ_DLva0mGxwLFsMiz6_0IIjD3cxW21cYHjEnylrpIYhAQLG08q1fTdue4J66JB5yWI5GzA5ffXqAWE_PstG-u8p_o1VfHkJpOF1KT0Mo5VcodWO_WicPvmKn1vOQJf0c6rbDNnllNjMNBuiDln1XCUjUDOfLx89vFvPMCj7xNcDo_JridE7f-X2gf07kd3BYVE6jqFC-6ref6N2KNZsoLTZHWbrgJh0-RIQr-JoWLhIv5kDOG00RToRdBoU4RvXP_UVCoLu0fR6KyFBTaO_eU8",
+    "results": [
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.897727,
+            "lng": -43.181225
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8963519697085,
+              "lng": -43.17990956970851
+            },
+            "southwest": {
+              "lat": -22.8990499302915,
+              "lng": -43.18260753029151
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "1fc2f067ccb512561fd751b9c93333e03576ef67",
+        "name": "Imaculada Bar e Galeria",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 720,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102902826230487556550/photos\">Imaculada Bar e Galeria</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAcSTHVpRnBUd0GIiEmvWA2axOtXl8Kt6o0C35JF3tLX_5cHeO8o2DIjWxfsKvIoOcObcighvo3ofxjud7bXlO7dt4gCj7OSHd1x29cY_prcQthXEGrunX6LPpdE4ArX-jEhBkSEoLEKdM7AB1Ac5V1keOGhSnS-qpRaC1zjAESQDPFAjfMEFDMg",
+            "width": 960
+          }
+        ],
+        "place_id": "ChIJ97EWT1p_mQARR7-tF2nAfgI",
+        "rating": 4.4,
+        "reference":
+          "CmRRAAAABzX4OouNINv41A6jGq2VIu5xjsV8BTIYrWVwanrGf000fzXS5JybDnLRCA6uLalmAdawf50Y_72KlEiX2cdnVsyB7BjwmYfxQiLwLc1g0_shZSqjrUflynFAEh1Fu6Y5EhB1a9gNNWMDzFhS6VW6cqSVGhSV567VYtks8xfKthNOEa-n4fnRUg",
+        "scope": "GOOGLE",
+        "types": [
+          "bar",
+          "art_gallery",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "vicinity": "Ladeira do João Homem, 7 - Saúde, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.898732,
+            "lng": -43.1787223
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8972931697085,
+              "lng": -43.1774034197085
+            },
+            "southwest": {
+              "lat": -22.8999911302915,
+              "lng": -43.1801013802915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "429e1fa54b5b0a0968f1c1a3c3bc64dec9ca9717",
+        "name": "Cine Botequim",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 1395,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103390220885127888434/photos\">Cine Botequim</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAv3ejwTlyiC5nGNd5hwT_TyN14em4O9hcGHdtDj6fPI1J9ERl8Xj64Qc8wrEyPhBJmobuZN8-vfvleX1LpfPMMldwnHSevadYfHakdNfKV4NRHfKJSBrb5LUcNbTzgywtEhAng8K3nAhjp0gPp1DpOcghGhT2EHDHF5bMQfwVm8fZG6-jP8CZ9w",
+            "width": 1808
+          }
+        ],
+        "place_id": "ChIJCzTunFl_mQARzPA6KFjnmV8",
+        "rating": 4.3,
+        "reference":
+          "CmRRAAAAGi3iwNTh8nDRMjAzaRvOgAL6TdsCOReP0A_GxXdUBNKnGz1o_XaINtb9pDcsGCRGQvpxk5l3VSiTbBp7hBM-l4-s6vA-fSIkbK3h3T8ga3BWe-T20l-2rnzm1ervXp6-EhBisxlY2-VBwXlkxHnXPi15GhQgLoD9HCaQV640oUNEr0gMjHLZLg",
+        "scope": "GOOGLE",
+        "types": ["bar", "point_of_interest", "establishment"],
+        "vicinity": "Rua Conselheiro Saraíva, 39 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9005947,
+            "lng": -43.18079840000001
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8992237697085,
+              "lng": -43.17941516970851
+            },
+            "southwest": {
+              "lat": -22.9019217302915,
+              "lng": -43.1821131302915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+        "id": "1fdfe4fd6fb354184b52990ca83572405ebd0414",
+        "name": "Málaga Restaurante & Bar",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 3024,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105480894152245911632/photos\">Pedro Mateus De Oliveira</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAomoRQvwyKObw8a11IYy8QgjQOJltqClViRe-AHu_X5fO-WlMAPDQA4hvwpEzdZcbY10NO7cReDPb3wTD8dA3rKHUH4arkML57d6CSjj_QPAXGygd6ncoBMsMCl2OBkKqEhDj8KBdKhjD1CG7yTyPyheFGhSerpEsia3Rax5VfSxP1gbumFVt4Q",
+            "width": 4032
+          }
+        ],
+        "place_id": "ChIJeZqYClx_mQARaKhefPQMuB4",
+        "rating": 4.4,
+        "reference":
+          "CmRRAAAAzo46oHKaAQnbaPeGyXeUAVUsctqCYiLgsL0xD8qM3TnVC_I427N1HOnvKRlMzJwE2O_cfMXh3eVUC8zTN6a_VeUq_6hrLnAJn7jjetzxjOeCa_ZQ7sKvvMHvzTd3pZ8SEhAZa9FObs1sP3Hapehk9891GhSQoyf2uLnBGcKrLAWTBd6b6q6vkw",
+        "scope": "GOOGLE",
+        "types": [
+          "restaurant",
+          "bar",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "vicinity": "Rua Miguel Couto, 121 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9009326,
+            "lng": -43.1824865
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8996203697085,
+              "lng": -43.18112421970849
+            },
+            "southwest": {
+              "lat": -22.9023183302915,
+              "lng": -43.18382218029149
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "717d29e1fee5cbc0dae8145c99069f3e422335d5",
+        "name": "Enoteca Doc",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 4320,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118409129594805323470/photos\">Aleks G</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAA3k_Bg3njEsSJxkhcwoJQ9VWTXuCdS4jDcGssm_c294wZJUt_fUorQ7c3OhfJJgqHZvwv2I9Jsa28zuRciulmvQMn0FykyHb6Y0s_NpB_dIEi-sWLJglaoFT1zTdPFBf_EhDEYQN_fssmKf97XJw0LUcJGhTl0NS9k2VYyxrEGhskJYTAuKehzA",
+            "width": 2432
+          }
+        ],
+        "place_id": "ChIJPxO7jVx_mQARN2RAPa3SupU",
+        "rating": 4.3,
+        "reference":
+          "CmRSAAAAGZofL6Zt6G1-eC6AmkaF7wKGWedq9meaIMQBBJTLuMSAATf6YxYBP4wzug1fwm0yMh29w3hgO8VyNEHcTrulUVqPCR13PSsqGHk6ze5c2HdSu9qJxw0fRy8M2aUlfmzzEhDkUAgCfm0Qv1-ZA9mzsx9DGhTuj0t0oIBXMpA8Qb0gLVFzIPGuTA",
+        "scope": "GOOGLE",
+        "types": [
+          "liquor_store",
+          "bar",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "vicinity": "Avenida Marechal Floriano, 32 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9005178,
+            "lng": -43.1828509
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8992303697085,
+              "lng": -43.1814906197085
+            },
+            "southwest": {
+              "lat": -22.9019283302915,
+              "lng": -43.1841885802915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+        "id": "cb7da433d29ec0f02dd327ba0e7700abed0051e2",
+        "name": "Oca do Índio",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 889,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111497899386711865509/photos\">Oca do Índio</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAxdELCtypP8SkqemkbFJp7lXf-PVj4N-P5QJl8FwQJMBinX0DfgFt0u5Bef7rkU4GYjv17DwdYXnXxQjDC5oM1_cY_pg_uPOX-zc8OGkywDhM6dLitr7fqZ4mpCk9cYp7EhDcgji0EGgd1sAYCYTYQKYWGhSF3mUqy97hpbTvol7Uaf7SaP-c_g",
+            "width": 2048
+          }
+        ],
+        "place_id": "ChIJF4_Nllx_mQARlULWEfmZkqQ",
+        "rating": 3.6,
+        "reference":
+          "CmRSAAAAYO27FRecRg7VrrYfmt71vFyZQ3muEzn56xLCgJ6W654FbUdkeU-zk7lpJFuc_pDFvtG7f2A72lo3TD9n4hnkbuzuJCjq-GOO390Nlnh_YwBuvA1myx1EOHEJQsz1kiA7EhCftrE6Gb4ceuD0kH9Cwz9OGhQ4yAXWONheykK4xs7SOLVdtZD_Cg",
+        "scope": "GOOGLE",
+        "types": ["bar", "lodging", "point_of_interest", "establishment"],
+        "vicinity": "Rua Leandro Martins, 22 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8984526,
+            "lng": -43.1780187
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8971103697085,
+              "lng": -43.1766939697085
+            },
+            "southwest": {
+              "lat": -22.8998083302915,
+              "lng": -43.17939193029149
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "66044b8b14730714add0239033359aeae8fe5285",
+        "name": "Bar do Boi",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 540,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109535480935035552287/photos\">Leonardo de Souza e Souza</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAzPvTXMoaU9_uLn6uBGJO4_cfZ4zvVhedamMAdTDKPGTGtnx-4NSLkeLdn1_RPMi4vWf2sFIYP77Q9nkFRuRMPJ_4_Gog9TbBHSrGakjYL2SamHNE_K4qXFMnYyuvm6oYEhA6PrM1sDdttlruuwGUVnvjGhRwxskb3TPfPXIo3SlTmJt63vi5QQ",
+            "width": 720
+          }
+        ],
+        "place_id": "ChIJB4ukvFl_mQARmolpvHD3Jw4",
+        "rating": 4.4,
+        "reference":
+          "CmRRAAAARfKdOXlzmDZdSXR9BXBF-f-gFScO3ZVRCaBdEKXDokPUydE8xdcmO3elSMDTxCiiaSkrTAaXrLz4Rz_38WCW6opvS6JKrZYCN1uGV-rSrpwtkfJSfqZnOwYBHO0laKzqEhBcdCGsEHbdirprfQpdlbYDGhR35wbibFno3gvgqRZfxOJq7orvow",
+        "scope": "GOOGLE",
+        "types": [
+          "bar",
+          "meal_takeaway",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "vicinity": "Rua Candelária, 106 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9020876,
+            "lng": -43.1770103
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9007095197085,
+              "lng": -43.17567596970851
+            },
+            "southwest": {
+              "lat": -22.9034074802915,
+              "lng": -43.17837393029151
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "a7037357c97460227cdf301d8ff76db68bc41011",
+        "name": "Skina Carioca",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 3006,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101043930415641722504/photos\">Eduardo Pezzi</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAfxcGWs7yNw2YVIUmFIDF-ma1qH2zlSyL_MuPfbIsTEMDYF73ForaVxEdBlgbJNNCkBi6q70hwqlE6XNxHzc7CYFmMq-AuiHBJzeZAUPBXwulQiEXtoLyJgYnEHIFBzLMEhCs_Ppor7KPJ_isyYE1Zvg-GhSPvjFuRnz-lPTTUiyHNmgkwg6eyA",
+            "width": 5344
+          }
+        ],
+        "place_id": "ChIJ1-MzKl9_mQAR9JTG3O1RZd8",
+        "rating": 4.1,
+        "reference":
+          "CmRSAAAAu_Jgz55Yol9nu-l6QtBdaXBfNZ3g-EeDg9wd0dA5bb6Yhxg9GjjCEY-rMQ7TnjX_s3fqVRLsFb8Bjez2Gqi9V0xns5kX_AMWTbzcszxWEpQ6qjs8z0vuLmJTb52ipI2GEhBNckW1MlK5Cv8Vrpxfpu_4GhTyFI0nV4aBDT8ToarNmTovmpjfxg",
+        "scope": "GOOGLE",
+        "types": [
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "vicinity": "Rua Buenos Aires, 21 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.903617,
+            "lng": -43.17933599999999
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9022778197085,
+              "lng": -43.1779808697085
+            },
+            "southwest": {
+              "lat": -22.9049757802915,
+              "lng": -43.1806788302915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "0ce5de2fc168c9245c22136fbdbbad2be5f89c26",
+        "name": "Nobrello Botequim Premium",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 2592,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103552610356654771403/photos\">Wallace Torres</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAXWEQ32VWNuPP5tsVRmp8bv6vD6ENksBC7Sn_vdsmWpoAjqCmQ5pbL9jbrocX4YYddq3ngKI1YBzpekmlWNek23i6JMK-x-1LMIp8JPyInwOCH3j0zEkZp78e7CQIYNelEhAZ-aqR-9VVD7N7gYPt5NwqGhRQBhJMN3sN3IZeYi7MPdNJIz0RfA",
+            "width": 4608
+          }
+        ],
+        "place_id": "ChIJ673Afl5_mQARsMAuDBzRNl4",
+        "rating": 4.2,
+        "reference":
+          "CmRRAAAA1dpP4XBcm86_vWsM4ANh17wehX22RnfaU_c0cUi0Lmjscd2cARfcHQObdj9lkpdPP-8speD7KDvLddcyAcE8aPb7ZFvZEImStqFLgl3q_Y6jfVUyRWNHQz9oAZQ6KTPOEhAqDflc_9XJPhZ3VdetCbKHGhRr6FkxCv1MFI6VfbEqCKuYxcpYCQ",
+        "scope": "GOOGLE",
+        "types": ["bar", "point_of_interest", "establishment"],
+        "vicinity": "Rua do Rosário, 155 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9009682,
+            "lng": -43.1819783
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.89964386970849,
+              "lng": -43.18068906970851
+            },
+            "southwest": {
+              "lat": -22.9023418302915,
+              "lng": -43.1833870302915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "c83b2aa0e4ca8f1e7036ee78ef9c0c59e2355b06",
+        "name": "Casa Paladino",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 3120,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117895932134108578797/photos\">Leonardo Luiz</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAK7HOGKmi6ACXcbDLjinkyhR2XogOVBXLHITLKRqo17PDs6A_mS_-rj0gZRfSijVT5FRTgV9KMj9GFsmlXPAPC-RpwRzRUXl2D4U3iM1e3U8qztrbt-kj_Fa8npiGBGfdEhDJBd4c2THQoUeTnTyatfBSGhSsMLxL_wX0tZQS9uZ3S19VmKQJAA",
+            "width": 4160
+          }
+        ],
+        "place_id": "ChIJfVQcilx_mQARmrlzcLz8Lp4",
+        "rating": 4.6,
+        "reference":
+          "CmRSAAAATN0Vj3_6VFVpPYRG2OrD4r3P9pquhqZz88XhWeqMvI-iNLC2G6Gi-Tlqsi-pJ1_0yvUJ94rrh8IpatNGf0-iMEq8pVhGjEVJjsHMXACHOYggYpHW6u3Dd5fn-LG6xIWlEhBWCRD5yVlUwSTNsnxdsmStGhTU_Cr_0dQsYiqPoAPRVM1KTeu21Q",
+        "scope": "GOOGLE",
+        "types": ["bar", "point_of_interest", "establishment"],
+        "vicinity": "Rua Uruguaiana, 224 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.903931,
+            "lng": -43.179389
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.90260856970849,
+              "lng": -43.1780920197085
+            },
+            "southwest": {
+              "lat": -22.9053065302915,
+              "lng": -43.1807899802915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "d9d53053504f82ddf2321d87cf9d599def021c33",
+        "name": "Opus",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 3456,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104188494872851894064/photos\">claudio almeida</a>"
+            ],
+            "photo_reference":
+              "CmRZAAAAvm8WS5n-c_PRTeeAhN2_OLHwQoCBL6304-YuQwBq8amxMUF2n-qxxbcHdzwCRBdrxL4PfrWmFK1LGXTFwn5lkCjZobHOe713h13NGjV2_luojF7qyqNE-HjG8Q36KWLwEhBiSmNHDL0hUgO-4UjT1i3aGhSNEpbWaOKYSQUSiXM4t1EnwQJlMw",
+            "width": 4608
+          }
+        ],
+        "place_id": "ChIJx36Vd15_mQAR1WRizsrQfwU",
+        "rating": 4.6,
+        "reference":
+          "CmRRAAAAidrOp_hbI6HSulGOSt19oX1gNoFbhjHw6A7VqrVsLk3r4a5aIRX6MMDYq8UG9Xqx9yhBhIUV9OUQP3aaP-zzx0DBWxw2kXBiFSqp79_cAQdARCyfUdqzQOjiRri6OBgREhBPcLXla2IUp--EE-cvwwDKGhRG6I2lfmljU9vYQH9WH5TEu29XjQ",
+        "scope": "GOOGLE",
+        "types": ["bar", "point_of_interest", "establishment"],
+        "vicinity": "Rua Gonçalves Dias, 80 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.904104,
+            "lng": -43.180579
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9027024697085,
+              "lng": -43.1792623697085
+            },
+            "southwest": {
+              "lat": -22.9054004302915,
+              "lng": -43.1819603302915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "43cebf1cb7cce3e2b389c73c9d64f64a008976c4",
+        "name": "Bar e Restaurante Castelinho",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 4128,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112488151410724905851/photos\">andre santos</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAGaxI6c1hYzhxgaEx8XAUnDvfH4chi6_M9ZFcmuRbH08x_mOgaf1dwbJY-_IoqDhUFAH4Th1kewzGH1eQ8ka2RYXBW_zGsd7_s1uoUis8Fi-u9hmBqBCh5W0Bu4XhmedLEhAb5v_MeQc2nJmsdIH3pumlGhQa5y-E8kjMZZwp9WHJ9lgiRLWVDg",
+            "width": 2322
+          }
+        ],
+        "place_id": "ChIJxVkokV1_mQARgHPQy1R0Ur8",
+        "rating": 3.9,
+        "reference":
+          "CmRSAAAAXSmSub0I1eNdpsE5zC1VL8JBF8rp51x_KU2uCC4LFTer7i0XSo1ALQl5U-Mo8TMxSbQigfxHBp_qJvluUG2NuoCXmFUFHvU_kw0WYCGCBn_6GbXyq3ajCkD6QXPjcaiMEhDkxWXe9vylSz6VWtFN_ruqGhQf9taM0E_qndpjgbi6VezixYznQw",
+        "scope": "GOOGLE",
+        "types": [
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "vicinity": "Praça Monte Castelo, 9 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8977656,
+            "lng": -43.1828989
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8962892197085,
+              "lng": -43.18155486970851
+            },
+            "southwest": {
+              "lat": -22.8989871802915,
+              "lng": -43.1842528302915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "41c32519208ab6a61b62b068350c3e4f134b2813",
+        "name": "Jazz In' Lounge",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 660,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113142846148998207808/photos\">Jazz In&#39; Lounge</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAoJsTftlxv1Z1GXjVN7KZrnKajyymfbU__EfEPwspDNwsyo8IAM2MBxI-aaLz572seth5NYKjKXg9_f-_6ij7mzwzugByRIU3MqD8n2s7PkcP7JvODvpZKhbcPIRWo-zeEhD73eZGrIN_Zwkrwky_RhWbGhQf8Yr6tvVHhZrSchJuxRkcJyUQUQ",
+            "width": 990
+          }
+        ],
+        "place_id": "ChIJLevuHlt_mQARScTcRGAacDg",
+        "rating": 4.4,
+        "reference":
+          "CmRRAAAAwS9j2Ouspp4BZQY6naece_AtBp_0mQreWv4NEQrxDwa5IuTqU9lDFi1_YxJdjyc88xBn4M0dQvV8vsiTxoxRcPEN-apeiwLwCAomX3xVSnLsTG5tcsKRYRgE0Bj48UQKEhAklFRUP8eE48sX0aX_xItQGhSOe-o26_1X7RSJxl9b3Qnud4yncg",
+        "scope": "GOOGLE",
+        "types": [
+          "night_club",
+          "bar",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "vicinity": "Rua Sacadura Cabral, 63 - Saúde, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8975849,
+            "lng": -43.180846
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.89624866970849,
+              "lng": -43.1794640197085
+            },
+            "southwest": {
+              "lat": -22.8989466302915,
+              "lng": -43.1821619802915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+        "id": "677d405fdd068d6a20eb5d80ea7e73d98be7d94b",
+        "name": "Bar e Restaurante Gloria LTDA",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 3474,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111984854115205619854/photos\">Franco Danny Manciolli</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAmGGa1dbQmyu_ART3pl1FoU0wIzjqMqR0YZ9jhW1ec16fu9UgvCYOAzJyCLyBwdgRIxX2pYetivl-OFJR-FsHvu2_LqfHjCbhCBGWhp1rI42Gmc3N6T5noM6yNhgMO8plEhAy9BobVOVtn09higrVQSYmGhSiHUrZCLAGNd89u7MpD-Jknlz2Og",
+            "width": 4632
+          }
+        ],
+        "place_id": "ChIJv-tGSFp_mQARdjxhc253j80",
+        "rating": 4.4,
+        "reference":
+          "CmRSAAAAJY68BwRPbpb7Sb6djANQ23RbXkDJ3oZPuWUa-PH-Ex3XJLSCy-sQIiNwu4sXteyvfVRK-4ZWK0CxQ4HyD7nXsqxlg6wL_Cm8sFxKQs3tBpQQwbAZfN4yN9Lnp5232DZCEhDJG_nONU4dJkzW2kQAwk-WGhQCao_ethGawabKTKVngXnMaAT5aQ",
+        "scope": "GOOGLE",
+        "types": [
+          "restaurant",
+          "cafe",
+          "bar",
+          "meal_takeaway",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "vicinity": "Rua Acre, 6 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9014307,
+            "lng": -43.1752645
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9000986197085,
+              "lng": -43.1739055197085
+            },
+            "southwest": {
+              "lat": -22.9027965802915,
+              "lng": -43.17660348029149
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "e57499968444c40f2c752335591cea29271fda6d",
+        "name": "Boteco Belmonte Praça XV",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 1080,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101500676125744041771/photos\">DBR</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAhyNydn27p5NyKa7fkTxbQVf7XFSB11o3rjT657ZRAh2_IUaqiKME4OFhjcj8ClgYRpHihPAmlpast-PGUKZ6rwtsnJXTej5AjDeBeGoVH0bmNZ26wl_i0zA5BrFYrrvyEhAkUeBUPB-O-lny91DWY3sLGhRAWiRL8JIU3B63jP1S6fk19INNdA",
+            "width": 1920
+          }
+        ],
+        "place_id": "ChIJwaVgulh_mQARhUWavfPKcP4",
+        "rating": 4,
+        "reference":
+          "CmRSAAAAHEe_MXGCrnsohHCEK6hDhnhz4qWosDDL21RlVkIMVkUMPUEobWf-4aOrZFtSiC5JS9yR9pwhA4t10EyHbHNzwpVSoCvZt_U9mP9JaUtgkOKoM_84gIuMRGF2DCdgCJA7EhDsLRLKI02NA7V1kUJvhohfGhSEz8VISPGniPQB1vywBUpEYNJhoA",
+        "scope": "GOOGLE",
+        "types": ["bar", "point_of_interest", "establishment"],
+        "vicinity": "Rua do Rosário, 24 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8985156,
+            "lng": -43.17988500000001
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8972016697085,
+              "lng": -43.17865576970851
+            },
+            "southwest": {
+              "lat": -22.8998996302915,
+              "lng": -43.18135373029151
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+        "id": "fd00861b739143017a913a5c8ab70d59265c0810",
+        "name": "Pasqualino",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "place_id": "ChIJ0ZXvLFp_mQARMuZAhBeGjSQ",
+        "rating": 3.7,
+        "reference":
+          "CmRRAAAAVVupkIH9Z_gI3he_y7Lni9jAOweh9l2Cg5SbcjSZy1VeTtyrP38JQPwamziyZqr71K2FZ7CB01ptw04GjtHyR9MoZx9NV4xlqmn70yo42Wfv04ofZYto0lbiwnh4fPGDEhDRBc56DQq2kAxMbbQVzQSoGhQWEL3Z9-VnXXom-cZAIUpVpXLbtQ",
+        "scope": "GOOGLE",
+        "types": [
+          "cafe",
+          "bar",
+          "meal_takeaway",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "vicinity": "Avenida Rio Branco, 25 A - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.90217999999999,
+            "lng": -43.17542299999999
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9008467197085,
+              "lng": -43.17406431970851
+            },
+            "southwest": {
+              "lat": -22.9035446802915,
+              "lng": -43.17676228029151
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "68d3abf65e928234fafa0fcabd3accfda3b79e66",
+        "name": "Tobacconist's Ombudsman",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 3096,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116055805618188918190/photos\">Amo Ja Rio</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAEVvpmdHSQ0tUBM-CaANnCViolKLg3TIliOfsKsajkX2ZhxZKcOGZppYmNh2nTqSr1vBH3_7tLBERFWYJhiZ2pMSmrnoylmBNPmArG8Ci4EGyiJQbrZ2dDrQL-OM25geKEhD8PbUMHN52QypmWGryLb7iGhS1xYeASZrxBKX-h7KK2EFdqh8Bjw",
+            "width": 4128
+          }
+        ],
+        "place_id": "ChIJ5zrxslh_mQARIjTgBMeuUsQ",
+        "rating": 4.6,
+        "reference":
+          "CmRSAAAAmcUxU62wDO6dyrmJxBPLpQX885b9gzVBf1qD5v9chQKunJuFv1nDIF5nwG2vfEPtsneITJWzsWmM1ln3v0uc8iHiaseIlzzvAJMYcZvFCR-3EUgmiAaWPET381OkyBYEEhB1lFJ5H1mA24ifNAqIj1_YGhQ_4UeeWGhqRSCN4SFqZmRuzV-f2Q",
+        "scope": "GOOGLE",
+        "types": [
+          "cafe",
+          "bar",
+          "store",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "vicinity": "Rua do Ouvidor, 39 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.901541,
+            "lng": -43.175059
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9001995697085,
+              "lng": -43.1737219697085
+            },
+            "southwest": {
+              "lat": -22.9028975302915,
+              "lng": -43.17641993029149
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "4c09c77433881d6c352beba70408b5fc4a2d9518",
+        "name": "Riomix",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "place_id": "ChIJbyUGAeKBmQARzNCa3yadBhI",
+        "reference":
+          "CmRRAAAAmaO83h_1yPq19MqtbYHTvlq_NKpH24XdLR1j1-AAGEWYZ6PqPhMSFcgepZz21hnODb5aAXwPmx9EsMbtW_7lNq4RuHkwMFL_bRpyz-wyEafzp9roty4W2aXy3BoTIMXLEhBqwGKQGMFLnThAJxiCA4s-GhSJdk-QBIjg5zv2BUME955K5qBX5w",
+        "scope": "GOOGLE",
+        "types": ["night_club", "bar", "point_of_interest", "establishment"],
+        "vicinity":
+          "Condomínio do Edifício Financial Center - Rua do Mercado, 34 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.900844,
+            "lng": -43.181281
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8995322197085,
+              "lng": -43.1799116197085
+            },
+            "southwest": {
+              "lat": -22.9022301802915,
+              "lng": -43.1826095802915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "27d39c809e88cc9b9fa78f8f8c5fc48a1b7df721",
+        "name": "Café e Bar Valdeiras Ltda",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 1080,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100310107500193776563/photos\">Wagner Moretzsohn</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAKVQW8bFdAQFQezRp_CoHuP3pHFWJgpXzbiV98CZWEzhOQbbA4io9RErypf7XnSIdBzlGUJA5mMWNqHgNUis6fgjTmZ_cjEiEBNQb8iSiFKDKuCh1w_Pzj9alIPncTIosEhB1ZRKqJPcoPJpkX2b9z-hqGhTJmg2E41l7L1xqS15vI6vnDpNVdA",
+            "width": 1920
+          }
+        ],
+        "place_id": "ChIJs7ejGxD1lwAREwkeisHWtMY",
+        "rating": 4.2,
+        "reference":
+          "CmRSAAAAwr5uNMAy1pBrw3-5Ek9Z9Ev47UwI101jYaN4faVe_XOfN3CWmkytKjkW5UZHKmJLzLR2n9aD4KPwEM7x9_ySrsHa3AvEs7T1GTP2a6c-MVo81DI9ZUTzKLYp9oKZUcQtEhDRNbCl7LGoM48dN4F-KNpSGhTdrokykTwzrGe74iog-lxKmjIT_Q",
+        "scope": "GOOGLE",
+        "types": [
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "vicinity": "Rua Teófilo Otoni, 134 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9001738,
+            "lng": -43.1813486
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8987932697085,
+              "lng": -43.1799822697085
+            },
+            "southwest": {
+              "lat": -22.9014912302915,
+              "lng": -43.1826802302915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "6576ec5837154a94dfc5741cd01750493cf5a120",
+        "name": "Adega Bar Quinta Videiras",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "place_id": "ChIJnwruiFt_mQARC9vg122Tkq0",
+        "rating": 5,
+        "reference":
+          "CmRSAAAAPfzlhqSjB4c8ZDqvMNDkVhQIbsZLkx5pr2oPPx2HEYNRTAckzbI_LuEXVlzU0FKCt4W763jM27hwKlMtTaS8hw2d14fm9Xf-B0ETkwSwWgaQrfTpkeZugtVbeszkenZ9EhAxgh9hN97x77qJQ0idyCuZGhR4HQuWZpSaE-jEiDUrpVPcJDb1Ww",
+        "scope": "GOOGLE",
+        "types": [
+          "bar",
+          "liquor_store",
+          "store",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "vicinity": "Rua Miguel Couto, 137 C - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9012086,
+            "lng": -43.1803539
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.89971136970849,
+              "lng": -43.1790522197085
+            },
+            "southwest": {
+              "lat": -22.9024093302915,
+              "lng": -43.18175018029149
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "66f48a8a3468e48351a52f74264eff603bf9bf41",
+        "name": "Bar do Napoleão",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 2448,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116129330195083578356/photos\">Jonnatan Oliveira</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAA97AZgCo5ivDZN7qWRWYNi8Bgg5vFrFOXGWS_0UwOQm3xhLBh24GC6Gr9wYbDw1VsyoJc_FEGF2bhyK3vIUuo3XJany8MGZ1BRNWPSD9nHOoFkrzbE3gtifT6UYz6RLyeEhDM0v5Q7VoO5CSbUplLeOUTGhRnukHzM8luvqGPcO96TqG-8QMy-w",
+            "width": 3264
+          }
+        ],
+        "place_id": "ChIJa01LCVx_mQARmf5BEZqC2Gg",
+        "rating": 3.8,
+        "reference":
+          "CmRRAAAAMNUevLQFnY4KP8l74hxqBDl8DDgWyv_mUGgXLH9eKs62MiM1-CEBh2PTXLOg4wCxDDAM5w2-i10IZcT_Sd5v6fS1kyO3hz1Ek1bSZWOrqHywt7OEjNxgWeiFNv0RmARiEhCZ7jJiFfg_6WwEEeXvot4PGhRQGkt1Ryy8ZzkRvdPsF6YIFmBozg",
+        "scope": "GOOGLE",
+        "types": [
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "vicinity": "Rua Miguel Couto, 105 A - Centro, Rio de Janeiro"
+      }
+    ]
+  }
+}

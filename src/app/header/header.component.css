@@ -1,0 +1,27 @@
+nav ul a {
+  font-weight: 900;
+}
+
+.dropdown-button.active > .arrow_drop {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transition: 0.7s;
+  -ms-transition: 0.7s;
+  -webkit-transition: 0.7s;
+}
+
+.dropdown-button > .arrow_drop {
+  transition: 0.7s;
+  -ms-transition: 0.7s;
+  -webkit-transition: 0.7s;
+}
+
+ul .dropdown-content {
+  top: 65px !important;
+}
+
+nav .home {
+  font-size: 30px !important;
+  margin-left: 20px;
+}
