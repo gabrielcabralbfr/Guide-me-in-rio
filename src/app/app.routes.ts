@@ -1,10 +1,15 @@
 import { Routes } from '@angular/router';
 
-import { BannerComponent } from './banner/banner.component';
+import { HomeComponent } from './home/home.component';
 import { PlacesComponent } from './places/places.component';
-
+import { LoginComponent } from './login/login.component';
 
 export const ROUTES: Routes = [
-    {path: '', component: BannerComponent},
-    {path: 'place', component: PlacesComponent}
+    {path: '', component: HomeComponent},
+    {
+        path: 'place/:placeType',
+        component: PlacesComponent,
+        data: { title: '/:placeType' }
+    },
+    {path: 'login', component: LoginComponent}
 ];

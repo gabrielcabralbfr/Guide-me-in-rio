@@ -8,10 +8,13 @@
   <a class="waves-effect waves-light btn white-text">Quero conhecer</a>
 </div>
 
-<div class="row card-row">
-  <h3>Alguns dos lugares mais frequentados da cidade</h3>
+<div class="container">
 
-  <div class="col s4" *ngFor="let card of cards">
-    <app-card [card]="card"></app-card>
+  <div class="row card-row">
+    <h3>Alguns dos lugares mais frequentados da cidade</h3>
+
+    <div class="col s4" *ngFor="let card of cards">
+      <app-card [card]="card"></app-card>
+    </div>
   </div>
 </div>

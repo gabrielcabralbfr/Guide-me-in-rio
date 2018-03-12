@@ -1,4 +1,4 @@
-<h2>Categoria</h2>
+<h2>{{ places?.results[0].types[0] }}</h2>
 
 <div class="row">
   <div class="col s12 m4 l4 xl4 filter-panel">
@@ -8,7 +8,7 @@
       <label for="icon_prefix">Busca por nome</label>
 
     </div>
-    <ul class="collapsible" data-collapsible="expandable">
+    <ul class="collapsible" data-collapsible="expandable" materialize="collapsible">
       <li>
         <div class="collapsible-header">
           <i class="material-icons">place</i>Distância
@@ -74,9 +74,11 @@
 
   <div class="col s3 m3 l3 xl3">
     <div class="container">
-      <iframe width="250" height="150" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCjdnRmQz2jZdbzu41O8ESgcKrBynhCoeI&q=Pedro+de+Carvalho,Brazil+RJ"
+      <!-- <iframe width="250" height="150" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCjdnRmQz2jZdbzu41O8ESgcKrBynhCoeI&q=Pedro+de+Carvalho,Brazil+RJ"
         allowfullscreen>
-      </iframe>
+      </iframe> -->
+
+      <div id="map"></div>
     </div>
   </div>
 </div>

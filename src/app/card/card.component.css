@@ -1,4 +1,8 @@
 .card .img {
-    width: auto;
-    height: 250px;
-  }
+  width: auto;
+  height: 250px;
+}
+
+.activator {
+  cursor: pointer;
+}

@@ -17,7 +17,7 @@ export class CardService {
     constructor(private http: Http) { }
 
     cards(): Observable<Card[]> {
-        return this.http.get(`${API}/sample`)
+        return this.http.get(`${API}sample`)
                         .map(response => response.json())
                         .catch(ErrorHandler.handleError);
     }

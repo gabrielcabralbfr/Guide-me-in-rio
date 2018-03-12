@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform, Injectable } from '@angular/core';
-import { Place } from '../places/place/place.model';
+import { Place } from '../app/places/place/place.model';
 
 @Pipe({
   name: 'activePipe',

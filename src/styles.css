@@ -3,20 +3,33 @@
 :root {
   --theme-bg-color: #000;
   --body-bg-color: #f1f1f1;
-}
-
-body,
-html {
-  width: 100%;
-  height: 100%;
-}
-
-body {
-  background-color: var(--body-bg-color) !important
+  --footer-height: 250px;
 }
 
 .banner-content .btn,
 footer,
 nav {
   background-color: var(--theme-bg-color) !important;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  padding-bottom: var(--footer-height) !important;
+}
+main {
+  padding-bottom: var(--footer-height) !important;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: var(--footer-height) !important;
 }

@@ -19,7 +19,7 @@
       "imagePath": "assets/lapa.jpg"
     }
   ],
-  "teste": {
+  "bar": {
     "html_attributions": [],
     "next_page_token":
       "CqQCFAEAAOsnmGskWAKEegP7F_2wLYbn1jVsQf92o6alSMOpB8z66VIBEttO9LVNQrXP3OtSTEp2xYuqKFii7GbAZo85aDPFkJa36mnR1O4_bbX3lAJxMcoawSO2XYLu-6qEJzGjKN0Jo-tt6O5DTBx14-m8et7zlGaovShbyJ_DLva0mGxwLFsMiz6_0IIjD3cxW21cYHjEnylrpIYhAQLG08q1fTdue4J66JB5yWI5GzA5ffXqAWE_PstG-u8p_o1VfHkJpOF1KT0Mo5VcodWO_WicPvmKn1vOQJf0c6rbDNnllNjMNBuiDln1XCUjUDOfLx89vFvPMCj7xNcDo_JridE7f-X2gf07kd3BYVE6jqFC-6ref6N2KNZsoLTZHWbrgJh0-RIQr-JoWLhIv5kDOG00RToRdBoU4RvXP_UVCoLu0fR6KyFBTaO_eU8",
@@ -946,5 +946,1447 @@
         "vicinity": "Rua Miguel Couto, 105 A - Centro, Rio de Janeiro"
       }
     ]
+  },
+  "fire_station": {
+    "html_attributions": [],
+    "results": [
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8990657,
+            "lng": -43.1779259
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8977167197085,
+              "lng": -43.1765769197085
+            },
+            "southwest": {
+              "lat": -22.9004146802915,
+              "lng": -43.1792748802915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+        "id": "c34764708d9552051ee917b4787988f0e9aae403",
+        "name": "Brasil Resgate",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 1536,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101045520860310411749/photos\">Brasil Resgate</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAilp5od5lLTPi37Pjgy1YVJxQLmwGx6eZLwSQTjDhuIeMXv7mx_AjiaTCH6IRpAa-JK-hQw127G5PmkukSlGn7YsywmT2smccvaEoMzPkkg82zI7wYuI-4F1nkh3zOZ3tEhDQHCt5bOzOPG6PlqaHZplpGhTHFOkeAgsF2nLDup4lZjOQZ9nJDw",
+            "width": 2048
+          }
+        ],
+        "place_id": "ChIJy-18p1l_mQAR_clz6f3W1kc",
+        "rating": 5,
+        "reference":
+          "CmRRAAAApcdwfCddH0xWiU0PaIYoi1-8-hvGsDrvZFE27LWipWngapw92Cqj-wLr4rb3_ZIeM48zBK8gbICAq47FU7CozGr26de8VkJHD-_oOIaY74Y1jepSFYb6jsUx25SAETalEhCwj25_IQrM0riSPe7ukKzsGhR_8GPYwRm7_J0-wC8jtaltcoLbFw",
+        "scope": "GOOGLE",
+        "types": [
+          "fire_station",
+          "health",
+          "point_of_interest",
+          "establishment"
+        ],
+        "vicinity": "Rua Candelária, 79 - Grupo 1202 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8992686,
+            "lng": -43.1775419
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8979326697085,
+              "lng": -43.1761891197085
+            },
+            "southwest": {
+              "lat": -22.9006306302915,
+              "lng": -43.1788870802915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+        "id": "3681ac2599b2df2e31d231935a2ac713f2a7462c",
+        "name": "Melhor",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "place_id": "ChIJi0dsB1l_mQARqC1vrc034AI",
+        "rating": 4,
+        "reference":
+          "CmRRAAAAwjuMTRLyv1AXLlwEjFjke079D7jZSrYC2mFTgkRhXFaHo1hi1ebSrVLw_2uLoyYsfeXLZzlW9zTZrs42L4Qs2KmXqiO9ZmxHUTY6UOSH3s9eqAhxotbkWeuJdbim0zLMEhCmFOQ1SdzgTQpD_nsO5ysVGhQ7GC6SO2dwoCVJEz5Vv73mgWl6HA",
+        "scope": "GOOGLE",
+        "types": ["fire_station", "point_of_interest", "establishment"],
+        "vicinity": "Rua Visconde de Inhauma - Centro, Rio de Janeiro"
+      }
+    ],
+    "status": "OK"
+  },
+  "police": {
+    "html_attributions": [],
+    "results": [
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9070724,
+            "lng": -43.1782557
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9053649697085,
+              "lng": -43.17710296970851
+            },
+            "southwest": {
+              "lat": -22.9080629302915,
+              "lng": -43.17980093029151
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "2105a2de69c1c3e1c69e4f01163dfa6e72ae28f2",
+        "name": "Polícia Militar",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 960,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100169434512038776726/photos\">From a Google User</a>"
+            ],
+            "photo_reference":
+              "CmRZAAAAuXZSVbsB3JnhJs9lwaWraUZCoXSk5jBEC7S3I6UUQrNXgW8wOauClJHAD-ysb326PwmVbz_oio66OOo4eFGgJ9gyvp3qiqzk8HpzwMC3vaBQBoTdcN9WcD8dYcnB48mxEhDZswDxu-BEEzOyRM8zuDZRGhROTywvWKU2LtE0nkEkpC_VEjqJww",
+            "width": 720
+          }
+        ],
+        "place_id": "ChIJXYTDlWB_mQAR40h37VH1SpU",
+        "rating": 4,
+        "reference":
+          "CmRSAAAAda7PlxgC4PtTqLmqwviGZCnasHXQ6BMLjZAQAzpZC74w9tY8dOkBXIbIjZcPKakTK249dPUqnZg8xuHG7VQa00mdZQ3Pbf5QA5FjtUCr9vw9NgUd_7_n4ul7qz3MGuKWEhBHT8skjxF8IeqB1LVlzcd0GhQjf_oHhjKF5iLaVUvz7QRamMZlDA",
+        "scope": "GOOGLE",
+        "types": ["police", "point_of_interest", "establishment"],
+        "vicinity": "Rua da Carioca - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9077631,
+            "lng": -43.1835324
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9063257197085,
+              "lng": -43.1822438697085
+            },
+            "southwest": {
+              "lat": -22.9090236802915,
+              "lng": -43.1849418302915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "a1aa109ba4249da13fd430d0e5595076f805d0c9",
+        "name": "Polícia Militar",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "place_id": "ChIJmxNlPGZ_mQARqpXtMF5Ow7E",
+        "reference":
+          "CmRSAAAAA64mtPwScrhtpSLsQ_BIEWPWTPwvmihzcU-TdgvBAEbOHFsPaLbSn9Llas7E2cVe70nQnD7fx_66Y-Z4rm2vP07vqSDjEZ8jnWmjgG1W9R8noUJKXkmDE1grbbqo3U75EhCZXX5jCZPmisRzaML49mI2GhTWI4xYL6-ybMBnayZT3Ws8QJ_Skw",
+        "rating": 4,
+        "scope": "GOOGLE",
+        "types": ["police", "point_of_interest", "establishment"],
+        "vicinity": "Praça Tiradentes, 45 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8960011,
+            "lng": -43.1826945
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8945645697085,
+              "lng": -43.1813082197085
+            },
+            "southwest": {
+              "lat": -22.8972625302915,
+              "lng": -43.1840061802915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "e5b29f0d1be43fc2a89de3bc67d2e8569673ecef",
+        "name": "Polícia Federal",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 3036,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111255791927075516738/photos\">Joao Cesar Escossia</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAoqoNSrotcpHJ49GVDdtCHxbAG6raW6lmU-oF4or4eYfr5njIpv2WJi8n01GJgnhQS8tFSwXUe2lefCnHts1wWByC20IBQ9C4YlyQYw6BXFE8Ftpd6XtQJoONWeUR5WEbEhBWcj13R1KlLrQV3FsvwT8pGhQPGptkyvb4Y1CweHk-ImSi0TQQvw",
+            "width": 4048
+          }
+        ],
+        "place_id": "ChIJhzG1rFB_mQARi-BrCbzUmD0",
+        "rating": 3.5,
+        "reference":
+          "CmRRAAAA8h4zHAz31AjGhoU6nZ4Hk7DixiwBjOuzB5UBciMWVHNOPyOS6OXgsRpVo76pY_0_OJ8FNUNCOuygKi0yHjL_mLnYyCE3docsSqaukx4xgvCFi2Uqj7JHaGSNIsjjSQkREhB_WmNF1YU37Wam-MFEuibQGhR5muVFHkppy7T9Sx5juFCGL8DuMg",
+        "scope": "GOOGLE",
+        "types": ["police", "point_of_interest", "establishment"],
+        "vicinity": "Avenida Rodrigues Alves, 1 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8969573,
+            "lng": -43.1827388
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8956083197085,
+              "lng": -43.1813898197085
+            },
+            "southwest": {
+              "lat": -22.8983062802915,
+              "lng": -43.1840877802915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "f0831b15f8241eb38916e51230cf3e8823c32755",
+        "name": "Polícia Federal",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 900,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105064364139724518273/photos\">Daniel F Ferreira</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAARX6HNbWzw0Yb8JYMiDuoV0RPB8_tZVPcg-98Uz9vRkO8I1f45S87WHdEGqyq28FYwAU_Hx19a3j17CnfvIGXjauDtCvZsjg1fkfTZE79izz9o1SMQatsUxVpqVFJehArEhDFwwDd7qvuLfluPEMfQlbNGhRdb6E_odQyw-h9qcHmh9vQbABA2w",
+            "width": 1200
+          }
+        ],
+        "place_id": "ChIJXQdn5Fp_mQAR5SgcwG4Fr7s",
+        "rating": 5,
+        "reference":
+          "CmRSAAAA1EDRBxT8XdwNu0Z2GRktAeuK5pX3_4vUndAnMYMogNKjB3Crdv--4GQulmpzWJMqGlClng7on9TX4XEYnCak9XzriefGTB6E7bsKrfgA_XyU0HCcqcMfoQX2dAyNEsvSEhA0BbqEV0fKtZdIWbp2N5MQGhRcWHnozQAVrt9O_tihPgWYAEegag",
+        "scope": "GOOGLE",
+        "types": ["police", "point_of_interest", "establishment"],
+        "vicinity": "Saúde, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8963194,
+            "lng": -43.1855748
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.89487996970849,
+              "lng": -43.1841893697085
+            },
+            "southwest": {
+              "lat": -22.8975779302915,
+              "lng": -43.1868873302915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "4b767b800a1420a2eba6dc5c3d7768b322eb0d51",
+        "name": "ANSEF RIO",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "place_id": "ChIJVVXFIUV_mQARYXweTuZL-nU",
+        "reference":
+          "CmRRAAAAHj-5z2s27mEO-HaiEOUUGo4PQzXNgTsu56ue1PFAvLHMAeDxQYvpSNWVlDfn8mLZeTgSVHPdorkiRA7CXC4RWEWHgoxEFcIMsyzzUGkxrp3HgJzTibDAdHY1dAF9mEc6EhA2Z1IhzwmWQaaIFCOXklRbGhS6dn9IjjYUrCtqQ1idNG0l2i_dVA",
+        "rating": 4,
+        "scope": "GOOGLE",
+        "types": ["police", "point_of_interest", "establishment"],
+        "vicinity": "Avenida Venezuela, 131 - Saúde, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.90777,
+            "lng": -43.182572
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.90642271970849,
+              "lng": -43.1811709697085
+            },
+            "southwest": {
+              "lat": -22.9091206802915,
+              "lng": -43.1838689302915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "bbf0863f89531e437973c7f8d46d9caef5b8bd2d",
+        "name":
+          "Caixa Beneficente da Polícia Militar do Estado do Rio de Janeiro",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 315,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104569198044743123586/photos\">Caixa Beneficente da Polícia Militar do Estado do Rio de Janeiro</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAArsB9v2rKIbrpi0p9RjAsA-JbJPMJYxOEZYC7gtKTdNKb49GmWCyfxGMGDLBUqKdZStOvzCF6f3t-6EfomKxUmVo_p5yj6wUkdBiLutNJ25Bw7sMbORVKuVCQv0o8GSFDEhCgE2yKQM33dII-NTh9qFdYGhT8T9H-hOgwmhVwPPE-EOY017qtiw",
+            "width": 851
+          }
+        ],
+        "place_id": "ChIJ7xfCWmZ_mQARMTbDEUFJSss",
+        "rating": 3.2,
+        "reference":
+          "CmRSAAAAYbJZ0jg15AqXeALy78k9qlnYrwCSC3volT81cl67gIV2nciU11TYph7NHcfQYaXrlmrJSQjDI6YS5YJ-tMkrDyx29195-QHhlbNG3CG30BNjkAGwm5VmmEExwdJuZIdWEhDvQIZm0YtgWUQZR3vAZsA-GhS8MIlUpnXmhZIkyywJERSv3je1Yg",
+        "scope": "GOOGLE",
+        "types": ["police", "point_of_interest", "establishment"],
+        "vicinity": "Rua Pedro I, 16 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9076764,
+            "lng": -43.1840747
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9063411197085,
+              "lng": -43.1827209197085
+            },
+            "southwest": {
+              "lat": -22.9090390802915,
+              "lng": -43.1854188802915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "94c15589ee421371bfeeb5fa738c8063f46a1400",
+        "name": "DEAMs Police for Assistance to Women",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 2448,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101871389827278213991/photos\">Alex Barg</a>"
+            ],
+            "photo_reference":
+              "CmRZAAAA_0g8Jjn9P5nIosUPtk-1C5n46c3SdC05qDJfVPfa3r8zYh4gsbhutVpSHcCJvpGqq2XLSV02czJlVk4TGYRAt1lAIiS0fKZhHx25i8OhlGb2wkQMDLVuFrdwalZ25EAiEhCN8Nmyey5uhf1RjH2MSIJHGhT3XaEfTuyCOsjgERw_sXnrAcJZcw",
+            "width": 3264
+          }
+        ],
+        "place_id": "ChIJi1sWImZ_mQARCRSir70ul30",
+        "rating": 3.3,
+        "reference":
+          "CmRRAAAAxBt_nCtoQnZytF9Xhs3HsvyrtoEg2V01BX_3Y2ZTYXtWg6cA-Hn86MEjaY88jmLdpWzeRvHNd4RpRcM3maixlp4u_RcKcgcVxoFWTiGuzj6ahJD8uhhlOsnkGm856ttwEhAud0741RoCEWksW7EE_-EQGhTjNSDW75clYx0CRHKRDqac93SmpA",
+        "scope": "GOOGLE",
+        "types": ["police", "point_of_interest", "establishment"],
+        "vicinity": "Rua Visconde do Rio Branco, 12 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9089767,
+            "lng": -43.1789653
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9075634697085,
+              "lng": -43.17764166970851
+            },
+            "southwest": {
+              "lat": -22.9102614302915,
+              "lng": -43.18033963029151
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "450c69978a10cc5e702cd8ddf6128858180a879b",
+        "name": "Polícia Militar",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "place_id": "ChIJG_6z92A5VgERf2_U0zaZ-Io",
+        "reference":
+          "CmRSAAAAhS3yqVrhNA2CEDxn_Z_DYzRlb65ECrT3dT4xsyk0FwINtaVqDquvtz9PTUrGMjqF21bm1Ylf1aXKdBaBZeSeHa6CC-dDXDP5f7XNHTdo7DuXVd3o1Ev8VXTFWJBy-LFzEhCdKb04nBpxtVuFO7YQazUBGhSoL-d3mFr8nFQwmysKrHzGA0JH-Q",
+        "rating": 4,
+        "scope": "GOOGLE",
+        "types": ["police", "point_of_interest", "establishment"],
+        "vicinity": "Avenida República do Chile - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9016999,
+            "lng": -43.17926889999999
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9002876697085,
+              "lng": -43.1779443697085
+            },
+            "southwest": {
+              "lat": -22.9029856302915,
+              "lng": -43.18064233029149
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+        "id": "78d7512dfb3fb54eff79f84d937220e39f317bc1",
+        "name": "NURP-DF",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "place_id": "ChIJRTh0pl5_mQARia4OQVGHKTU",
+        "rating": 5,
+        "reference":
+          "CmRRAAAAufIvAb4tetM2mwlweN7K-V3afBt91ROfrMH_wFN25HGwDJvJsmdt4mzgzjQB6jgItzZN_ZgiAHpSQY7zwwuyqLRXlftMLLJCLmW9-TZn64b4VCP6OVOH6w7VjwH36PaKEhAkD76OQJFjH3rnNJTcNovFGhQI3-OEdWw5lWcm276DKLRJ9TReUw",
+        "scope": "GOOGLE",
+        "types": ["police", "point_of_interest", "establishment"],
+        "vicinity":
+          "Avenida Presidente Vargas, 1733 - 408-409 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.895723,
+            "lng": -43.185413
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8945688197085,
+              "lng": -43.1841450697085
+            },
+            "southwest": {
+              "lat": -22.8972667802915,
+              "lng": -43.1868430302915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "2fa466c881c9e407568638e7d371500ee623d843",
+        "name": "Delegacia Receita Federal Divisão Inform Econom",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "place_id": "ChIJe5RiIkV_mQARGRnAjJr7NEw",
+        "rating": 2,
+        "reference":
+          "CmRRAAAAfV5QYE7NlWehDnUqWQWMpHJdNn1PFKTa19OSAR4mOoIm-22qTCrUeYccpW8FuEn4BhRKqSqrdpHDjo9-jbJN31bkq04KExP3K2KhmzxZQDXVigcBpbr_bAECjU9MxFJLEhC3nGa2W5O-nvS-HpziXguYGhThhJZeDHpe04huNMoMoVh9ow_oMA",
+        "scope": "GOOGLE",
+        "types": ["police", "point_of_interest", "establishment"],
+        "vicinity": "Avenida Venezuela, 134 - Saúde, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9033815,
+            "lng": -43.1870698
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9020518197085,
+              "lng": -43.18577201970849
+            },
+            "southwest": {
+              "lat": -22.9047497802915,
+              "lng": -43.18846998029149
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+        "id": "40f8c65071904a8ce67df69ffcdc9f03242448de",
+        "name":
+          "4a Delegacia DPCA Delegacia De Proteção A Criança E Ao Adolescente",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 2123,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107940620991425515944/photos\">Daniel Galdino</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAwnwC7aWrzE3aknGKSu1Zvg6ua5M3MOLGhZujRfzObCR9iit8mDgvna0MYD0sRlLHXXwOETAMFUGaMFQxavUZljSauCJ6OkZaH9d0bpVPlLWnfWnEm5MFIi0VPCqBI-C6EhDp8f5O7yuDGqSdmNNuVMGXGhTUxRpT0_7riBrEZKtZnsvtZ9imLg",
+            "width": 2768
+          }
+        ],
+        "place_id": "ChIJ09491Gl_mQAR8SJc0eUemwE",
+        "rating": 3,
+        "reference":
+          "CmRRAAAAczS9_Lz1ZB94WoErbk71vN1lwaWUnsNDdkIKo0dThjfjLOO76bYPznLzD960xcOtkiqUuP7rbsgk8xixx1jcUdE4q7ro1jYqRgFse_k4J5nru3ZaoFDDV_OQxigXmtywEhApQnBpAXKBMxYicZ524GoqGhSD8jZDvd71NrfbHC6OK1Ic3eaNHg",
+        "scope": "GOOGLE",
+        "types": [
+          "local_government_office",
+          "police",
+          "point_of_interest",
+          "establishment"
+        ],
+        "vicinity": "Avenida Tomé de Sousa, 3 - Centro, Rio de Janeiro"
+      }
+    ],
+    "status": "OK"
+  },
+  "hospital": {
+    "html_attributions": [],
+    "next_page_token":
+      "CqQCGQEAAE9Cdm5yZlKB0FClkuciRAocd4ICSnGh40uoMJmQiH852zOJxbPcnaq3Tr02dR-9I74wdfiLhzTs-nsiNHYpsoCHVzMaar-6AUNyTuWKQ9DrMuCHgS0M4gQiHVrElOnGUtwPJJJal8Mv42CanQGEBvaAkxH6vFDzjw5j8q5mTlQFj_TbeeQC7nxPLOEHY4A07mHaR04sFlaeLgBpa79Mx2mbQAI6p0QvHs-MJyuDNmlm83f40Ft6JtacyvLK80ppJL4gd2ozDd2R5y0Zebgg0EwvWWolV68IVVSGn_Mq42Jkqdy0mX02a_-XKicSaQ-9HT7FEBzJ7RIowmopcrAvKS1fAoQpKWeoBNHXDUyfF1Jc2c7ywEZ7fLKiQ3CatoEuqxIQSyufMkJA6n__DFNx540AMxoU5PV_DCv_JTP0ZdF0sjbEwcPVHzs",
+    "results": [
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9011391,
+            "lng": -43.18006989999999
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8998681197085,
+              "lng": -43.1786911197085
+            },
+            "southwest": {
+              "lat": -22.9025660802915,
+              "lng": -43.1813890802915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "54b5d0777fdc0a9b3d9de56fbc0e0d070efecf62",
+        "name": "Audioclínica do Rio de Janeiro",
+        "place_id": "ChIJzcBSBVx_mQARQ7F7AZLxd08",
+        "rating": 2,
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "reference":
+          "CmRRAAAAZswp1GrVDc_LwcoNu1fZRbI1WJfhtxY7G5cj6XS3aGT22TVYoKxiP1m9hXBEAR-EE2fV_yWnCkGJFU3G_bC8k2PLw3prMF5M_cut_I8Ir0EKNVQG9swVYkd5XV2BYpHrEhBHhjfwa4t4mD2fiKpabQC1GhSemC8ckXZxza16Dy8ECQYi10pXgg",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Avenida Presidente Vargas, 446 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9036814,
+            "lng": -43.179255
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9022833697085,
+              "lng": -43.17793661970849
+            },
+            "southwest": {
+              "lat": -22.9049813302915,
+              "lng": -43.18063458029149
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "57b9ce2ddc2e6938608c9f0b8c20acf183146dcc",
+        "name": "Centro Médico Rosário",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "photos": [
+          {
+            "height": 3264,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118239335236317087314/photos\">Christopher Suttenfield</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAm63ze_jnoGfnT1KwQ1VWo0VRaiX3brDmzTpGKGLOfu8y-MpReXvL2gN9QF2nHs_WvAHTcp_hnz2ly7o0xlM-EL6iPn40L1u_nJLd1rpH2PXrNR8gCfkWEYOktnNRQJNpEhDdUn044DX99PKkV2rHff1tGhROdIhO5jVGuO-Mdx4D3ePi8rtM5A",
+            "width": 1836
+          }
+        ],
+        "place_id": "ChIJb71Ufl5_mQARxqpkQs7YCsk",
+        "rating": 3,
+        "reference":
+          "CmRSAAAAveifb5BfXCmz4VMqT2J0M0ZPYAZ-KuGVQr6SBH0j3vx-D7EOfnc_cGXG-Q9-PZzTh9_TSS0kDLnawKh8yV78ZiEzSaVqgCV4qVqHwG_sVYb6DDFCCkDX63vk3M7FzlxtEhAQ8RWmgT0bSeAdv2MxnzQQGhTp5rwqCJ6-n8M9AgmGuqUfw9C0Cg",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Rua do Rosário, 151 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9008282,
+            "lng": -43.1791565
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.89949306970849,
+              "lng": -43.1778532697085
+            },
+            "southwest": {
+              "lat": -22.9021910302915,
+              "lng": -43.1805512302915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "1a2fae14aa83c4278c914d7f9087cdca7087c667",
+        "name": "Anp",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "place_id": "ChIJs_CUfrd7mQARzGDgBJ75Mr8",
+        "rating": 5,
+        "reference":
+          "CmRSAAAAMYgmN5XiSV-iMdp2H-j2ppmwMwlAes9QmqYoXjiyt8BKRv27ZmXuCwYRMd0EgU3YASaqiNuNij4EfXop8_howhrywLb8vheKK95wxS8ZUwlgHWtInq1zKb5A57E7LX2qEhDdnySCbVc9qpbM3FUYCp4hGhSFZtNPRrbx3diN3hJe5BF7WQRJPw",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Avenida Rio Branco, 65 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8986591,
+            "lng": -43.17960679999999
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.89721051970849,
+              "lng": -43.1781996197085
+            },
+            "southwest": {
+              "lat": -22.8999084802915,
+              "lng": -43.1808975802915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "e483b1fefb6d4775638551a91e0998fe4793a657",
+        "name": "Cba",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "place_id": "ChIJWWHEf1l_mQARRb9ZOJN4YI8",
+        "reference":
+          "CmRSAAAAhXEKH5x2esQTBpbBAc7EOcQXtIE36goJzJH55376uVAZmAH-vZhNqdJFXIa9hKA8MI7OUPRKZ0gs2lv6NDhy8OEk5ti6Sj-YtXbkW_8x6xS4XSkmIYfe508T1u5ahEEXEhCm6gMyBy1vgvtjPda18tuOGhS1HqzGmajXNBYk6wKc-FDuw1T6aw",
+        "scope": "GOOGLE",
+        "rating": 5,
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Rua São Bento, 13 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8991605,
+            "lng": -43.1813419
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8977995197085,
+              "lng": -43.18002721970851
+            },
+            "southwest": {
+              "lat": -22.9004974802915,
+              "lng": -43.1827251802915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "098df3c8f92dfa3cc72dcb57441c3d4a2089e6be",
+        "name": "Comex",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "rating": 5,
+        "place_id": "ChIJcaD6l1t_mQARGoNhMrthj0Y",
+        "reference":
+          "CmRRAAAAEP-brbypM5U83aEmubZqblJM9Djwe4gUKN0XMCyzWsA7HVRbt0xgkjTj2M-8OlT6AcP9N0Ob8FeXWSzXU2iHdANSTmczMzG2rXzV904p553nMDfAbw2zgtjSrS2XZaFNEhCCbq7mk5g850tfIhRPiPaRGhS4vyd8qbOufGmdQVMS2qoWR1DmFw",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Rua Acre, 51 - 805 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.89892,
+            "lng": -43.17775760000001
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8975710197085,
+              "lng": -43.17640861970851
+            },
+            "southwest": {
+              "lat": -22.9002689802915,
+              "lng": -43.17910658029151
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "025378fa4fe885b9865e8c64ce276bd60496b772",
+        "name": "Clínicas Integradas Rio de Janeiro",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "rating": 5,
+        "photos": [
+          {
+            "height": 960,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116791726694968772748/photos\">Suporte TI CMedRJ</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAACNuYcGOLBDHgO-XLLu2r9CiOVHISHxq52PizGFlnjvyNiFo6GPWJd91J1d7gB7qSauerXzWZ1I4rT3it-02rtkeN4OSlau0STu9r7yS4JPAQJmh8Z1gRAfvyT4AlsccyEhCZqIRswIXM0X-LRYE6TagtGhQ9xr3-UgV3JHfMKSRjua4so7AC6w",
+            "width": 1280
+          }
+        ],
+        "place_id": "ChIJQ58hpll_mQAR9VMj_eBzm8k",
+        "reference":
+          "CmRSAAAAYkzA-Jqxk2qteqDyAIHwB87gHiH52BBj0CqnwtLQaEJfKgoTBbD2l9AkgIngGBTN0vyUa2fAp-JbuGFoe-p-uryb2sLodJJt2zqtBCxU6OdN8hZMoCa81Ldp8CUOQXD_EhC3gA3kQlFHfd07yATc8cm2GhTx0oKSF7JixLcbPBh0qmBkzeW7pw",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Rua Candelária, 86 - 6º andar - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9025882,
+            "lng": -43.1788306
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9013109697085,
+              "lng": -43.1774491697085
+            },
+            "southwest": {
+              "lat": -22.9040089302915,
+              "lng": -43.18014713029149
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "7a0249be12608b4fc92a234d359ff4173d1ab900",
+        "name": "Centro de Medicina Nuclear da Guanabara",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "place_id": "ChIJM1Uil15_mQAR9nooulZVQuA",
+        "rating": 2.1,
+        "reference":
+          "CmRSAAAAT-rxel4i7PSGmvVJGHcMwIXa-X5x1whpWtA6_W5-nhXCHreaXgw8FNdyO2rGGTfDJaFC3Oxrs74rBlXEzeZSEg-d3-2EPujPnTw4ZjiscFpMNrYvBkGND_MPDDHy2mivEhDG-p1U3_At9bz6pPc4e5ELGhSSDH2TibEb_1CNjmQpLlsWI2Endw",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Rua Buenos Aires - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8981732,
+            "lng": -43.1811261
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8968402697085,
+              "lng": -43.1797297197085
+            },
+            "southwest": {
+              "lat": -22.8995382302915,
+              "lng": -43.1824276802915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "f3f2e6e533449238874097be84f04e1b3b933374",
+        "name": "Ambient Medicina",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "rating": 5,
+        "place_id": "ChIJj-6bs1t_mQARg0mC7Cr6E4o",
+        "reference":
+          "CmRSAAAAGXDWcGFMjsDDMuFNMo9lNghlGpnerN7BomDo1gI5ntEB4hqdrw0YvLjcvejAbq2OxcfRiTTKnTnKZlSmLDfoFjYEdOCyb7LRv785sBhKDwxXMBQPZFtemn1QZKTRCNfSEhC6xhnsnaWZE9MbCVeqzYREGhQgJiT1SqRwKXxVgY65Kv6kBTy1Kg",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Rua Acre, 28 - 604 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.90089469999999,
+            "lng": -43.1826807
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.89962896970849,
+              "lng": -43.1812900197085
+            },
+            "southwest": {
+              "lat": -22.9023269302915,
+              "lng": -43.1839879802915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "8ad55686d2f9639c05da3210033c41303b395a16",
+        "name": "JFF MEDICINA DO TRABALHO",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "rating": 5,
+        "place_id": "ChIJIyiuk1x_mQARfQsSvCPBYpk",
+        "reference":
+          "CmRSAAAAVYH1iQJRlV0qRVhF20q9A7v-j6TRP2o6IQb2PHbQbzehMc7tb6iqz1vAemHVfnhUuKGXfL6qcntborcMCSk4V6EAzEANP3sXixi70-1Kpg_HCtGzJ1SujzTrQpQi6r_uEhBDUA5zXHDiad62mo3gtPPyGhRnXIpd2ikUHafjGiGaZm-MRso-pA",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Avenida Marechal Floriano, 38 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9027449,
+            "lng": -43.1777074
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.90142251970849,
+              "lng": -43.1763415697085
+            },
+            "southwest": {
+              "lat": -22.9041204802915,
+              "lng": -43.17903953029149
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "6d6540938db40856dd75f0f052abc35a95bab916",
+        "name": "laboratorio",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "rating": 5,
+        "place_id": "ChIJ69r5515_mQARs8rMmo8Vcm4",
+        "reference":
+          "CmRRAAAApVn_WaxiIz4_ecR8qcTaSHr3ezWmXp69kEavX2E4uRG-KjkEV3PbVvi_xAe-W65R1MKlgQ59j1gtaC60lRoZSu0IRSYcGz1KIioKL4X3vRxdGSJ3jm9ehFn9iEP_6mRFEhAQ-XPd01NPAapE1nAj9tExGhSitvS7tgFKuxGnKs673J3KG4VKrw",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Rua do Rosário - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9019256,
+            "lng": -43.1768408
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.90058891970849,
+              "lng": -43.17551986970849
+            },
+            "southwest": {
+              "lat": -22.9032868802915,
+              "lng": -43.17821783029149
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "0b14449416501bb197f5759737e0db9e2ccdb256",
+        "name": "CLINICA LUIZ FELIPPE MATTOSO CANDELARIA",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "rating": 5,
+        "place_id": "ChIJlSNiK19_mQARFLJchAYHkU0",
+        "reference":
+          "CmRRAAAAtUCPn-AQzIIt1w2PTbpDGl8Kvi56NuXgKoRdphd9mHQJIV5E2IU2ciNGOXHeG-SVFNfjC7LmhuuW_Xk04SADpoaLeWJ1Uit-qvG7Qs6En3pDYjr1awVsypqlDMALS23TEhD6H9U9mz1dwFcySydjGIz1GhQ_GLyndOX9knE7kpFTTOfpooDrfg",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Rua Candelária - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.90369669999999,
+            "lng": -43.1785567
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9024020697085,
+              "lng": -43.17717211970851
+            },
+            "southwest": {
+              "lat": -22.9051000302915,
+              "lng": -43.17987008029151
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "aa90db402251cb5449fcc6e6c63d8e09d4eb005f",
+        "name": "DRVS",
+        "place_id": "ChIJ3YKl9l5_mQAR72-Rhoe7ABY",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "rating": 5,
+        "reference":
+          "CmRRAAAA35XW7ldPfZZcldjpaGPyBKQ7WjiRN72tN9By5zAhpjEpkzoSxdpS0S5Pty7ZOoIhN_5Zjz_uCr45e12X3kiooIKLWHNWi-79tOdpree_GGhehen5fnz9Zj0ekC-WLjo4EhCBIB5LmWKG_dO6lLV4iKGWGhTeW_nZjj0C3XrA1pX_aC_Wk9rg-Q",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Rua do Ouvidor, 116 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9044027,
+            "lng": -43.1782008
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9030103197085,
+              "lng": -43.1767185197085
+            },
+            "southwest": {
+              "lat": -22.9057082802915,
+              "lng": -43.17941648029149
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "a25ee1b92b58c03ef6f254eab61493cdbfd252aa",
+        "name": "Medial Saúde",
+        "place_id": "ChIJAWTYQl5_mQARFWcQzzF9akM",
+        "reference":
+          "CmRRAAAApSdLxiJ6OqtoIn3Dxk0JF0EWt6xOw27v8YVwdEx3eUDFAHfPtl0ZDm_9hh-KY5sOzafXSVURH9zGD5iSNrDLeWJx_wCFI1k2XoBXlFxH-tMRVZryB_IppLTbtdfG6VPzEhBnV0isGhSXntMRTPv0Fw3tGhTeWg0F93tVDilrWqfvAneA3qk3_w",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "rating": 5,
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Avenida Rio Branco, 116 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9029266,
+            "lng": -43.17675029999999
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9015601697085,
+              "lng": -43.17541196970849
+            },
+            "southwest": {
+              "lat": -22.9042581302915,
+              "lng": -43.17810993029149
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "c2c17d0e1d5386a3897ed81c0fb3ee7c96d88393",
+        "name": "Centro Médico Ouvidor",
+        "place_id": "ChIJmaKXH19_mQARRuHZolWNIpU",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "rating": 3,
+        "reference":
+          "CmRSAAAAlQ9na-HqZhB_i79b6bv1hQill4zCzkDFIT2hWWaXJffx5wuopP6ZRMoDimpY47m43GHre3A0mMcHSk8QBYZR91w8AFOmLj0xe7DJXi7pKzdfIG31BE3EIICMiOiXUbhdEhCXU90XvPnK7D3xYDGrm0kSGhTu4zs9FUgdTA9dtDD9uQc5NrXLXg",
+        "scope": "GOOGLE",
+        "types": ["hospital", "health", "point_of_interest", "establishment"],
+        "vicinity": "Rua do Ouvidor, 75 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9010785,
+            "lng": -43.1803344
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8997295197085,
+              "lng": -43.1789854197085
+            },
+            "southwest": {
+              "lat": -22.9024274802915,
+              "lng": -43.1816833802915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "323a1686f620368cc12032c24e0f2ab1bc22505b",
+        "name": "EXAMES RIO DEJANEIRO 24H",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "rating": 2,
+        "photos": [
+          {
+            "height": 263,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102368635385772844358/photos\">EXAMES RIO DEJANEIRO 24H</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAAumwryBrQJQ0wm65iLNeloc20VcQ_5So9DC5An2rX5yJaCXQpnEcJENBLbYL2D5NZN4WKmP-ASp7nYnZSh__gaHZVS5z2TwLPVb_xv67ZcxuMMKVOglOyRXT15wV3X5gEEhCZfphc-CDS47WUR8BsjFPzGhTCmsKCv93Tme0F6Aa2qi7RC7l51w",
+            "width": 336
+          }
+        ],
+        "place_id": "ChIJX3b8Dlx_mQARdnZ6lvQgI7k",
+        "reference":
+          "CmRSAAAAASGJ68FNASoDKiXzzFJ3kDZYfwUciCnrtUEjCimw0zqp0YatKX0gXiNdduvj0P1KB5hyZsUFHMzMJj9wPFeIm2ph10QhG8zBFdFADVeLf1AgOwcpFptkCgP-mCX7JucfEhAQE7hn6h5CXnP2uYcQfiFPGhRXIjY93FZZHZFXKsUf71V7xHywIA",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity":
+          "Rua Miguel Couto, 105 Sala 512 - A - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9006272,
+            "lng": -43.1807795
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8992550197085,
+              "lng": -43.1793943697085
+            },
+            "southwest": {
+              "lat": -22.9019529802915,
+              "lng": -43.1820923302915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "6ef43a769dbc4cb1942e295420ef919fe6447dc9",
+        "name": "Centro Médico Atlântico Sul",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "place_id": "ChIJmQ0NjFt_mQARfmTWQWVx20o",
+        "rating": 5,
+        "reference":
+          "CmRRAAAALRiAir-CGcoIiWXYbyMDSeiZtOsT1m6Eg98Qq4nflj_5qFWS6wkrJojvYDXb7G56l3fHHxrYLxBbJ5bp-sMI8mLOYFZlTT6rk4CYCVq-yf2emaJ7xk5BU9QQg4ensxwdEhDAfYjqOamvo_-mLJgOQLweGhTax47lxe4_fE7g52lxHpNAtLYzoA",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Rua Miguel Couto, 124 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8996272,
+            "lng": -43.1787386
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8982762197085,
+              "lng": -43.1773903197085
+            },
+            "southwest": {
+              "lat": -22.9009741802915,
+              "lng": -43.1800882802915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "654b5056620e2e25fcdd039eae5ed558cb453560",
+        "name": "Clinica",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "rating": 4,
+        "place_id": "ChIJs9DBbll_mQARFccsXRxLzXw",
+        "reference":
+          "CmRRAAAA142A_R-pt9XgTqFBNou2eS3GaJ8J4beIV5RFKj67mdMsUTL6p8u4T3aQFf0em87wVj5-b1g1AUUzp29tUOGv_E2ZFeQToy_aOGz9EgHSG7DUHooIk7nJPzVrNPoicPK3EhCFy9mrbxVnR13v8yh89yU3GhQnneZnMq_cWXjgVHLdqWZbe-ufxA",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Rua Visconde de Inhauma, 77a - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.90261250000001,
+            "lng": -43.1791784
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9012508197085,
+              "lng": -43.1778094697085
+            },
+            "southwest": {
+              "lat": -22.9039487802915,
+              "lng": -43.1805074302915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "81f42a11ca320d40e0e672b2ad1d5e1dbca76ea3",
+        "name": "CENTRO DE MEDICINA NUCLEAR DA GUANABARA MIGUEL COUTO",
+        "place_id": "ChIJv_C_m15_mQARxlhQoQfUJ9c",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "rating": 3,
+        "reference":
+          "CmRSAAAAqvdMRrQPh1YkFcMUEy6VYwwOw6FDqvrl1deRlZSCzN2IcFYutpQDSd2_Xxtfi0MyB9fo0F5jzUhY2Jl3ZaQavdab0yBadGb5a2VwoafH6jhb69mzDTfPm9oB2a2vWrQ1EhAu3wZdUzRq_CsV1bfmEKHTGhQUvPx1QtnbVOcct6JqHUgrYEQUrg",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Rua Miguel Couto - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9026248,
+            "lng": -43.1788445
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9013342197085,
+              "lng": -43.1774690697085
+            },
+            "southwest": {
+              "lat": -22.9040321802915,
+              "lng": -43.1801670302915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "0f5bff09ee1008b652f495eeb68adc6f260d0e32",
+        "name": "ASSOCIACAO DE APOIO A TERCEIRA IDADE CENTRO",
+        "place_id": "ChIJBcExl15_mQAR-lkABWlrpe4",
+        "opening_hours": {
+          "open_now": false,
+          "weekday_text": []
+        },
+        "rating": 5,
+        "reference":
+          "CmRSAAAANOT5wEnq_7S1FnHtgm_-6GT5k40d8QZyxXzZzrnqafkNnZ5Tk94qtb98Ze4rCxbl5LltQveW8kcqYcST9KdvLpF5FbEsN4n5DwUpteWZnvI2EMuWYjlsIdtdy4HnnNwDEhB18HsmMCC6FaXRVF7qLjFkGhS_zWKhFNYR9_vjZenImwivzTfOkA",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "Rua Buenos Aires, 68 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8969773,
+            "lng": -43.18132979999999
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8956000697085,
+              "lng": -43.1799826697085
+            },
+            "southwest": {
+              "lat": -22.8982980302915,
+              "lng": -43.1826806302915
+            }
+          }
+        },
+        "icon":
+          "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+        "id": "0453a112bc1d31ab1b7d5192b6a12400f3f98747",
+        "name": "Cascadilura Cabral",
+        "place_id": "ChIJXVxGQ1p_mQARe-N8FLASeLA",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "rating": 4,
+        "reference":
+          "CmRSAAAAOKP7W2j_XV14DGSpTxaYizYpm-hzoOtrWGKxJeB4gaf75Z_wFwrL3i2LDzysR7o2pGTZqnOlzt4TZqs9SJocVsyHyO_BWOa_a3ESHyWtS0Chmky3SvBKHSdIpDLQWMUOEhBCuvnJ9j27TD2XlJ9Kv2rQGhSkh_pxTJQAQjb_uQBmaEHCw8FRWg",
+        "scope": "GOOGLE",
+        "types": ["hospital", "point_of_interest", "establishment"],
+        "vicinity": "20081-240, Praça Mauá, 11-13 - Centro, Rio de Janeiro"
+      }
+    ],
+    "status": "OK"
+  },
+  "night_club": {
+    "html_attributions": [],
+    "results": [
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8997552,
+            "lng": -43.1808826
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8984242197085,
+              "lng": -43.17950151970851
+            },
+            "southwest": {
+              "lat": -22.9011221802915,
+              "lng": -43.18219948029151
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "c6edcb58d01d3fdc74b28be2bf2e66204bff8024",
+        "name": "Centro de Lazer MV30",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "rating": 5,
+        "place_id": "ChIJzy3lklt_mQAR-3GyD4aRUmw",
+        "reference":
+          "CmRRAAAAkeQUyv_mvZ2dT72fP-JImDzW55fRSOAJJej0ApkzIRCjkF7sAQTX2M-28FMvaxBiKkwKM5L7D7YCKCz9gkQlx27EKme6QLVYPHrienZWFQDkSmDQgchvpL4u7xXCQ7mdEhBXL9fVo2BLQNaMav2xcIC8GhQE2Xsdy-NON0wUEnFZwfC6bC-Bog",
+        "scope": "GOOGLE",
+        "types": ["night_club", "point_of_interest", "establishment"],
+        "vicinity": "Rua Mairink Veiga, 30 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9021816,
+            "lng": -43.1791069
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9008415697085,
+              "lng": -43.17775451970851
+            },
+            "southwest": {
+              "lat": -22.9035395302915,
+              "lng": -43.1804524802915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "4c355224a061f86258d7aad5793ef389cbd4ba9f",
+        "name": "Point 502",
+        "place_id": "ChIJvW23n15_mQARxRrbnje1Ssk",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "rating": 4.2,
+        "reference":
+          "CmRSAAAAJ5DlT2pvUx7aPiRZycKC1beqegjl_iP8LuaflVvrrc9Tzp_PeCFLk62H2d_wTrfWKF77nbpiWoisxpy4dtgDMKkrsX7qy6YLjuPzxdLkGb-tbbsfQ4BJYt981bUuYpFAEhBW32wRP7zCUBAPqp3q-rQ4GhRIn9x3QAPCA_w0swRKelP8kwd_5Q",
+        "scope": "GOOGLE",
+        "types": ["night_club", "point_of_interest", "establishment"],
+        "vicinity": "Rua da Alfândega, 65 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.8997552,
+            "lng": -43.1808826
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.8984242197085,
+              "lng": -43.17950151970851
+            },
+            "southwest": {
+              "lat": -22.9011221802915,
+              "lng": -43.18219948029151
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "d7edc07b26496b1cccb0e4d357b8b843ba9ce8b3",
+        "name": "MV 30",
+        "place_id": "ChIJzy3lklt_mQAR5ASX2XsVAmo",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "rating": 3.4,
+        "reference":
+          "CmRRAAAA1rUkENjWLBl37h4gVnOy8X2nUDrIY7TtjSSv2ElmquWYgEzyvyTATaiupT1CKjXFhog8IDr1BPxEpJQ5VNN4kA7DkbcKsFNRIuEjfac3OhIQpLBr_YkZ39dipzhY3VjpEhAxBtzpNL-hIEFc54T0PsKEGhQaCnUTRkg1SSUFFUbFzGVCadUxcA",
+        "scope": "GOOGLE",
+        "types": ["night_club", "point_of_interest", "establishment"],
+        "vicinity": "Rua Mairink Veiga, 30 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9023486,
+            "lng": -43.17794139999999
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.90102131970849,
+              "lng": -43.1765818697085
+            },
+            "southwest": {
+              "lat": -22.9037192802915,
+              "lng": -43.1792798302915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "5384f8406e15a2a3448c85f933acfa206dc4d82c",
+        "name": "QU4TRO POR QU4TRO",
+        "place_id": "ChIJz5aMxF5_mQARpgHt5Z1uz7k",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "rating": 2.4,
+        "reference":
+          "CmRSAAAAduugorzvOZ-dShcVt_FlTzkm1nw3jhWS4Yr8n5n8Vm73Ugd65zdAFj5xeXtODYNWpJPtntn_-ygVM699myHF6UQ6NL2nwjsa1HEgqsVVjrzQc_F1e3mdtP1ao4WgrTjLEhAWRGO_AmKKKaI3Hc3TCRXFGhScZR3Dzh6t0znrYKR_pFIcLWKjQg",
+        "scope": "GOOGLE",
+        "types": ["night_club", "point_of_interest", "establishment"],
+        "vicinity": "Rua Buenos Aires, 44 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9009464,
+            "lng": -43.1829143
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.89958816970849,
+              "lng": -43.18154286970849
+            },
+            "southwest": {
+              "lat": -22.9022861302915,
+              "lng": -43.18424083029149
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "a0d49cd3d9828cf17180b7ec4ba7065ce09e1004",
+        "name": "Quartel General KTV Originais",
+        "photos": [
+          {
+            "height": 1038,
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100802194655297922904/photos\">PDP_aLENDA pdp</a>"
+            ],
+            "photo_reference":
+              "CmRaAAAA_rRg0np9FXT0Pl5zASD1W2aQHnWPV73hORYxLjOCTgQYE_2qXHCrehA8E9YpDim4GsstLS1FQ1yIgmghK7VdmGEqtePqKt64z_uXBiUNTvnw1xblb3rGNzULoiMrSDj9EhCvvLqFZszACaUddtJz89N6GhR7PXEmwCT6Y60PPWzdVmDIsMxM1w",
+            "width": 720
+          }
+        ],
+        "place_id": "ChIJQ_Wf7Fx_mQARLfh4B57C8yA",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "rating": 5,
+        "reference":
+          "CmRRAAAAhRkgy8F5UHozVRv2uEVyoHyhnhZHbm3BOzynRcLjTXPgUS2noynq59DC7ZxxInZko7RIL-2-bnqkBYnhRvjl5eFS2RsWxaFcCcI9msvvBPgEKhb_zfDOxRY87MYyX8yeEhCKKGZH2IHjqoCpa3JzuR3zGhQUoZNJ3DlhGBB5OQUyMH3HKKdeMA",
+        "scope": "GOOGLE",
+        "types": ["night_club", "point_of_interest", "establishment"],
+        "vicinity": "Rua dos Andradas, 102 - Centro, Rio de Janeiro"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": -22.9017009,
+            "lng": -43.1826465
+          },
+          "viewport": {
+            "northeast": {
+              "lat": -22.9003112697085,
+              "lng": -43.1813221197085
+            },
+            "southwest": {
+              "lat": -22.9030092302915,
+              "lng": -43.1840200802915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+        "id": "6d774e10f2035debc8e1853d672be8c3a3fa349e",
+        "name": "Akiiiiii",
+        "place_id": "ChIJBb5c5Vx_mQAR38FZQuev_j4",
+        "opening_hours": {
+          "open_now": true,
+          "weekday_text": []
+        },
+        "rating": 4,
+        "reference":
+          "CmRRAAAA6lpz2urgJOfhmP8IGLJM5hG52uDx4LEujwfk3deBEhfEqEV89R7-ZV653pOzcehXUv4BQhUAZTieC7T96BiS0KQZXT7N3k1dw3aOy5ZTAxSgvbLk546NU741R7a62GpTEhC8lkdbllGpz4-W0Va_deOnGhTYN3K_bmxULR__VoRpTNUInyjYXg",
+        "scope": "GOOGLE",
+        "types": ["night_club", "point_of_interest", "establishment"],
+        "vicinity": "Rua Teófilo Otoni, 171-201 - Centro, Rio de Janeiro"
+      }
+    ],
+    "status": "OK"
   }
 }

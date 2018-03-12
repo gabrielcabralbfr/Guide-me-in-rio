@@ -1,16 +1,20 @@
 <ul id="emergencias" class="dropdown-content">
   <li>
-    <a href="#!">Bombeiros</a>
+    <a [routerLink]="['/place', 'fire_station']">Bombeiros</a>
   </li>
+  <li class="divider"></li>
+
   <li>
-    <a href="#!">Delegacias</a>
+    <a [routerLink]="['/place', 'police']">Delegacias</a>
   </li>
+  <li class="divider"></li>
+
   <li>
-    <a href="#!">Postos de Saúde</a>
+    <a [routerLink]="['/place', 'hospital']">Postos de Saúde</a>
   </li>
   <li class="divider"></li>
   <li>
-    <a [routerLink]="['banheiros']">Banheiros</a>
+    <a>Banheiros</a>
   </li>
 </ul>
 
@@ -34,10 +38,10 @@
 
 <ul id="eventos" class="dropdown-content">
   <li>
-    <a href="#!">Jogos Olímpicos</a>
+    <a [routerLink]="['/place', 'bar']">Bares</a>
   </li>
   <li>
-    <a href="#!">Pontos Turísticos</a>
+    <a [routerLink]="['/place', 'night_club']">Boates</a>
   </li>
 
 </ul>
@@ -52,14 +56,39 @@
 
 </ul>
 
+<ul id="mobile-menu" class="dropdown-content">
+  <li>
+    <a href="">Restaurantes</a>
+  </li>
+  <li>
+    <a href="">Bares</a>
+  </li>
+
+  <li>
+    <a href="">Boates</a>
+  </li>
+  <li class="divider"></li>
+  <li>
+    <a href="">Delegacias</a>
+  </li>
+
+  <li>
+    <a href="">Bombeiros</a>
+  </li>
+
+  <li>
+    <a href="">Hospitais</a>
+  </li>
+
+</ul>
 
 <nav>
   <div class="nav-wrapper">
-    <a [routerLink]="['']" class="">
+    <a [routerLink]="['']">
       <i class="home material-icons left">home</i>
     </a>
 
-    <ul class="right hide-on-med-and-down">
+    <ul class="hide-on-med-and-down">
       <!-- Dropdown Trigger -->
       <li>
         <a class="dropdown-button" href="#!" data-activates="emergencias">Emergências
@@ -82,6 +111,27 @@
       <li>
         <a class="dropdown-button right" href="#!" data-activates="tema">Troque o tema
           <i class="material-icons right arrow_drop">arrow_drop_down</i>
+        </a>
+      </li>
+
+      <li class="right">
+        <a [routerLink]="['/login']">Entrar</a>
+
+        <!-- <div id="modal1" class="modal">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+          </div>
+        </div> -->
+      </li>
+    </ul>
+    <ul class="hide-on-large-only right">
+      <li>
+        <a class="dropdown-button" href="" data-activates="mobile-menu">
+          <i class="material-icons">menu</i>
         </a>
       </li>
     </ul>
