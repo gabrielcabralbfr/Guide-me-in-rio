@@ -1,4 +1,9 @@
-<h2>{{ places?.results[0].types[0] }}</h2>
+<script>
+  $(document).ready(function () {
+    $('.collapsible').collapsible();
+  });
+
+</script>
 
 <div class="row">
   <div class="col s12 m4 l4 xl4 filter-panel">
@@ -16,7 +21,8 @@
         </div>
         <div class="collapsible-body">
           <p class="range-field">
-            <input type="range" id="test5" min="0" max="1000" />
+            <span>Raio (em metros)</span>
+            <input type="range" id="radius" min="0" max="1000" />
           </p>
         </div>
       </li>
@@ -66,19 +72,16 @@
       </li>
     </ul>
   </div>
-  <div class="col s9 m5 l5 xl5 places-panel">
-    <div *ngFor="let place of places?.results | searchPipe: searchText | activePipe: activeSearch">
-      <app-place [place]="place"></app-place>
+  <div class="row">
+    <div class="col s12 m6 l6 xl6 places-panel">
+      <div *ngFor="let place of places | searchPipe: searchText | activePipe: activeSearch">
+        <app-place *ngIf="place.photos && place.rating && place.opening_hours" [place]="place"></app-place>
+      </div>
     </div>
-  </div>
-
-  <div class="col s3 m3 l3 xl3">
-    <div class="container">
-      <!-- <iframe width="250" height="150" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCjdnRmQz2jZdbzu41O8ESgcKrBynhCoeI&q=Pedro+de+Carvalho,Brazil+RJ"
-        allowfullscreen>
-      </iframe> -->
-
+    <div class="col s12 m4 l4 xl4">
       <div id="map"></div>
     </div>
   </div>
+
+
 </div>

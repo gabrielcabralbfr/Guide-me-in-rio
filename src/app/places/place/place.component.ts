@@ -1,5 +1,6 @@
 import { Place } from './place.model';
 import { Component, OnInit, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-place',
@@ -10,9 +11,12 @@ export class PlaceComponent implements OnInit {
 
   @Input() place: Place;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+    this.router.routeReuseStrategy.shouldReuseRoute = () => {
+      return false;
+    };
   }
 
 }

@@ -13,6 +13,5 @@ export class HomeComponent implements OnInit {
   constructor(private cardService: CardService) {}
 
   ngOnInit() {
-    this.cardService.cards().subscribe(response => (this.cards = response));
   }
 }

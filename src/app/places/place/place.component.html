@@ -1,7 +1,11 @@
-<h4 class="header">{{ place?.name }} <span class="right place-icon"><img [src]="place?.icon" alt=""></span></h4>
+<h4 class="header">{{ place?.name }}
+  <span class="right place-icon">
+    <img [src]="place?.icon" alt="">
+  </span>
+</h4>
 <div class="card horizontal">
   <div class="card-image">
-    <img src="assets/lapa.jpg">
+    <img [src]="place?.photos[0].getUrl({'maxWidth': 350, 'maxHeight': 350})">
   </div>
   <div class="card-stacked">
     <div class="card-content">
@@ -22,7 +26,7 @@
       </p>
     </div>
     <div class="card-action">
-      <a href="#">Ver detalhes</a>
+      <a [routerLink]="[place.place_id]">Ver detalhes</a>
     </div>
   </div>
 </div>
