@@ -10,11 +10,11 @@
   <li class="divider"></li>
 
   <li>
-    <a [routerLink]="['/place', 'hospital']">Postos de Saúde</a>
+    <a [routerLink]="['/place', 'hospital']">Hospitais</a>
   </li>
   <li class="divider"></li>
   <li>
-    <a>Banheiros</a>
+    <a [routerLink]="['/place', 'doctor']">Clínicas médicas</a>
   </li>
 </ul>
 
@@ -22,16 +22,21 @@
   <li>
     <a href="#!">Hoteis</a>
   </li>
+
+  <li class="divider"></li>
+
   <li>
-    <a href="#!">Restaurantes</a>
+    <a [routerLink]="['/place', 'restaurant']">Restaurantes</a>
   </li>
+  <li class="divider"></li>
 
   <li>
     <a href="#!">Praias</a>
   </li>
+  <li class="divider"></li>
 
   <li>
-    <a href="#!">Escolas</a>
+    <a [routerLink]="['/place', 'school']">Escolas</a>
   </li>
 
 </ul>
@@ -40,6 +45,7 @@
   <li>
     <a [routerLink]="['/place', 'bar']">Bares</a>
   </li>
+  <li class="divider"></li>
   <li>
     <a [routerLink]="['/place', 'night_club']">Boates</a>
   </li>
@@ -91,25 +97,25 @@
     <ul class="hide-on-med-and-down">
       <!-- Dropdown Trigger -->
       <li>
-        <a class="dropdown-button" href="#!" data-activates="emergencias">Emergências
+        <a class="dropdown-button"  data-activates="emergencias">Emergências
           <i class="material-icons right arrow_drop">arrow_drop_down</i>
         </a>
       </li>
 
       <li>
-        <a class="dropdown-button" href="#!" data-activates="explore">Explore
+        <a class="dropdown-button"  data-activates="explore">Explorar
           <i class="material-icons right arrow_drop">arrow_drop_down</i>
         </a>
       </li>
 
       <li>
-        <a class="dropdown-button" href="#!" data-activates="eventos">Eventos
+        <a class="dropdown-button"  data-activates="eventos">Eventos
           <i class="material-icons right arrow_drop">arrow_drop_down</i>
         </a>
       </li>
 
       <li>
-        <a class="dropdown-button right" href="#!" data-activates="tema">Troque o tema
+        <a class="dropdown-button right"  data-activates="tema">Troque o tema
           <i class="material-icons right arrow_drop">arrow_drop_down</i>
         </a>
       </li>
@@ -128,9 +134,9 @@
         </div> -->
       </li>
     </ul>
-    <ul class="hide-on-large-only right">
+    <ul class="hide-on-large-only mobile-drop">
       <li>
-        <a class="dropdown-button" href="" data-activates="mobile-menu">
+        <a class="dropdown-button" data-activates="mobile-menu">
           <i class="material-icons">menu</i>
         </a>
       </li>

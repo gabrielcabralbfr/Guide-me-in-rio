@@ -1,4 +1,5 @@
-export function GetPlacesFrom(placeType, coords) {
+"use strict";
+export const GetPlacesFrom = function(placeType, coords) {
   let map, service;
 
   const local = new google.maps.LatLng(coords.lat, coords.long);
@@ -32,9 +33,9 @@ export function GetPlacesFrom(placeType, coords) {
   });
 
   return places;
-}
+};
 
-export function GetDetailsById(id, coords) {
+export const GetDetailsById = function(id, coords) {
   let map, service;
 
   const request = {
@@ -60,13 +61,10 @@ export function GetDetailsById(id, coords) {
 
   service = new google.maps.places.PlacesService(map);
 
-  service.getDetails(request, function (place, status) {
-    if (status == google.maps.places.PlacesServiceStatus.OK) {
-      placeResult = place;
-      console.log(place);
-      // return place;
-    }
+  service.getDetails(request, function(place, status) {
+    placeResult = place;
+    console.log(place);
   });
 
   return placeResult;
-}
+};
