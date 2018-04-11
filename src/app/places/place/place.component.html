@@ -5,7 +5,7 @@
 </h4>
 <div class="card horizontal">
   <div class="card-image">
-    <img [src]="place?.photos[0].getUrl({'maxWidth': 350, 'maxHeight': 350})">
+    <img src="http://via.placeholder.com/350x350">
   </div>
   <div class="card-stacked">
     <div class="card-content">
@@ -26,7 +26,7 @@
       </p>
     </div>
     <div class="card-action">
-      <a [routerLink]="[place.place_id]">Ver detalhes</a>
+      <a [routerLink]="[place.id]">Ver detalhes</a>
     </div>
   </div>
 </div>

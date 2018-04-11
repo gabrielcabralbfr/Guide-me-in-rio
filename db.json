@@ -19,11 +19,7 @@
       "imagePath": "assets/lapa.jpg"
     }
   ],
-  "bar": {
-    "html_attributions": [],
-    "next_page_token":
-      "CqQCFAEAAOsnmGskWAKEegP7F_2wLYbn1jVsQf92o6alSMOpB8z66VIBEttO9LVNQrXP3OtSTEp2xYuqKFii7GbAZo85aDPFkJa36mnR1O4_bbX3lAJxMcoawSO2XYLu-6qEJzGjKN0Jo-tt6O5DTBx14-m8et7zlGaovShbyJ_DLva0mGxwLFsMiz6_0IIjD3cxW21cYHjEnylrpIYhAQLG08q1fTdue4J66JB5yWI5GzA5ffXqAWE_PstG-u8p_o1VfHkJpOF1KT0Mo5VcodWO_WicPvmKn1vOQJf0c6rbDNnllNjMNBuiDln1XCUjUDOfLx89vFvPMCj7xNcDo_JridE7f-X2gf07kd3BYVE6jqFC-6ref6N2KNZsoLTZHWbrgJh0-RIQr-JoWLhIv5kDOG00RToRdBoU4RvXP_UVCoLu0fR6KyFBTaO_eU8",
-    "results": [
+  "bar":  [
       {
         "geometry": {
           "location": {
@@ -945,11 +941,8 @@
         ],
         "vicinity": "Rua Miguel Couto, 105 A - Centro, Rio de Janeiro"
       }
-    ]
-  },
-  "fire_station": {
-    "html_attributions": [],
-    "results": [
+  ],
+  "fire_station": [
       {
         "geometry": {
           "location": {
@@ -1032,12 +1025,8 @@
         "types": ["fire_station", "point_of_interest", "establishment"],
         "vicinity": "Rua Visconde de Inhauma - Centro, Rio de Janeiro"
       }
-    ],
-    "status": "OK"
-  },
-  "police": {
-    "html_attributions": [],
-    "results": [
+  ],
+  "police": [
       {
         "geometry": {
           "location": {
@@ -1475,14 +1464,9 @@
         ],
         "vicinity": "Avenida Tomé de Sousa, 3 - Centro, Rio de Janeiro"
       }
-    ],
-    "status": "OK"
-  },
-  "hospital": {
-    "html_attributions": [],
-    "next_page_token":
-      "CqQCGQEAAE9Cdm5yZlKB0FClkuciRAocd4ICSnGh40uoMJmQiH852zOJxbPcnaq3Tr02dR-9I74wdfiLhzTs-nsiNHYpsoCHVzMaar-6AUNyTuWKQ9DrMuCHgS0M4gQiHVrElOnGUtwPJJJal8Mv42CanQGEBvaAkxH6vFDzjw5j8q5mTlQFj_TbeeQC7nxPLOEHY4A07mHaR04sFlaeLgBpa79Mx2mbQAI6p0QvHs-MJyuDNmlm83f40Ft6JtacyvLK80ppJL4gd2ozDd2R5y0Zebgg0EwvWWolV68IVVSGn_Mq42Jkqdy0mX02a_-XKicSaQ-9HT7FEBzJ7RIowmopcrAvKS1fAoQpKWeoBNHXDUyfF1Jc2c7ywEZ7fLKiQ3CatoEuqxIQSyufMkJA6n__DFNx540AMxoU5PV_DCv_JTP0ZdF0sjbEwcPVHzs",
-    "results": [
+  ],
+
+  "hospital": [
       {
         "geometry": {
           "location": {
@@ -2177,9 +2161,7 @@
         "types": ["hospital", "point_of_interest", "establishment"],
         "vicinity": "20081-240, Praça Mauá, 11-13 - Centro, Rio de Janeiro"
       }
-    ],
-    "status": "OK"
-  },
+  ],
   "night_club": {
     "html_attributions": [],
     "results": [

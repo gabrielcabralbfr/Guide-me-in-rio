@@ -7,10 +7,7 @@
     {
       "root": "src",
       "outDir": "dist",
-      "assets": [
-        "assets",
-        "favicon.png"
-      ],
+      "assets": ["assets", "favicon.png"],
       "index": "index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",
@@ -19,9 +16,11 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../node_modules/ngx-toastr/toastr.css"
       ],
       "scripts": [
+
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

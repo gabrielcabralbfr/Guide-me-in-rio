@@ -1,3 +1,5 @@
+import { CadastroComponent } from './cadastro/cadastro.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 import { Routes } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
@@ -13,5 +15,8 @@ export const ROUTES: Routes = [
         data: { title: '/:placeType' }
     },
     {path: 'login', component: LoginComponent},
+    {path: 'cadastro', component: CadastroComponent},
     {path: 'place/:placeType/:placeId', component: PlaceDetailsComponent},
+    {path: '404', component: NotfoundComponent},
+    {path: '**', redirectTo: '404'}
 ];

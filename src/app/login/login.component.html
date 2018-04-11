@@ -1,19 +1,24 @@
-<div class="container">
+<div id="form-container">
   <div class="row">
-    <form class="col s12">
+    <form class="col s12" #loginForm="ngForm" (ngSubmit)='login(); loginForm.reset()' ngNativeValidate>
       <div class="row">
-        <div class="input-field col s6">
-          <input placeholder="Informe seu login" id="login" type="text" class="validate">
-          <label for="login">Nome de usuário</label>
-
+        <div class="input-field col s12">
+          <input required id="username" type="email" class="validate" [(ngModel)]='user.email' name='name'>
+          <label for="username">Login</label>
         </div>
 
-        <div class="input-field col s6">
-          <input placeholder="Informe sua senha" id="password" type="password" class="validate">
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input required id="password" type="password" class="validate" [(ngModel)]='user.password' name='password'>
           <label for="password">Senha</label>
         </div>
       </div>
+      <p>Ainda não possui cadastro? Cadastre-se <a [routerLink]="['/cadastro']">aqui</a></p>
+      <button class="btn waves-effect waves-light right blue" type="submit" name="action">Login
+        <i class="material-icons right">send</i>
+      </button>
+
     </form>
   </div>
-
 </div>

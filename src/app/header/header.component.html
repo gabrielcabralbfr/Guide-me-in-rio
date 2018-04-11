@@ -20,7 +20,7 @@
 
 <ul id="explore" class="dropdown-content">
   <li>
-    <a href="#!">Hoteis</a>
+    <a [routerLink]="['/place', 'hotel']">Hoteis</a>
   </li>
 
   <li class="divider"></li>
@@ -31,7 +31,7 @@
   <li class="divider"></li>
 
   <li>
-    <a href="#!">Praias</a>
+    <a [routerLink]="['/place', 'praia']">Praias</a>
   </li>
   <li class="divider"></li>
 
@@ -54,36 +54,36 @@
 
 <ul id="tema" class="dropdown-content">
   <li>
-    <a href="#!">Dark</a>
+    <a href="#!">Português</a>
   </li>
   <li>
-    <a href="#!">Light</a>
+    <a href="#!">Inglês</a>
   </li>
 
 </ul>
 
 <ul id="mobile-menu" class="dropdown-content">
   <li>
-    <a href="">Restaurantes</a>
+    <a [routerLink]="['/place', 'restaurant']">Restaurantes</a>
   </li>
   <li>
-    <a href="">Bares</a>
+    <a [routerLink]="['/place', 'bar']">Bares</a>
   </li>
 
   <li>
-    <a href="">Boates</a>
+    <a [routerLink]="['/place', 'night_club']">Boates</a>
   </li>
   <li class="divider"></li>
   <li>
-    <a href="">Delegacias</a>
+    <a [routerLink]="['/place', 'police']">Delegacias</a>
   </li>
 
   <li>
-    <a href="">Bombeiros</a>
+    <a [routerLink]="['/place', 'fire_station']">Bombeiros</a>
   </li>
 
   <li>
-    <a href="">Hospitais</a>
+    <a [routerLink]="['/place', 'hospital']">Hospitais</a>
   </li>
 
 </ul>
@@ -97,41 +97,33 @@
     <ul class="hide-on-med-and-down">
       <!-- Dropdown Trigger -->
       <li>
-        <a class="dropdown-button"  data-activates="emergencias">Emergências
+        <a class="dropdown-button" data-activates="emergencias">Emergências
           <i class="material-icons right arrow_drop">arrow_drop_down</i>
         </a>
       </li>
 
       <li>
-        <a class="dropdown-button"  data-activates="explore">Explorar
+        <a class="dropdown-button" data-activates="explore">Explorar
           <i class="material-icons right arrow_drop">arrow_drop_down</i>
         </a>
       </li>
 
       <li>
-        <a class="dropdown-button"  data-activates="eventos">Eventos
+        <a class="dropdown-button" data-activates="eventos">Eventos
           <i class="material-icons right arrow_drop">arrow_drop_down</i>
         </a>
       </li>
 
       <li>
-        <a class="dropdown-button right"  data-activates="tema">Troque o tema
+        <a class="dropdown-button right" data-activates="tema">Idioma
           <i class="material-icons right arrow_drop">arrow_drop_down</i>
         </a>
       </li>
 
       <li class="right">
-        <a [routerLink]="['/login']">Entrar</a>
+        <a *ngIf="!userLogged()" [routerLink]="['/login']">Entrar</a>
+        <a *ngIf="userLogged()" (click)="logout()">Sair</a>
 
-        <!-- <div id="modal1" class="modal">
-          <div class="modal-content">
-            <h4>Modal Header</h4>
-            <p>A bunch of text</p>
-          </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-          </div>
-        </div> -->
       </li>
     </ul>
     <ul class="hide-on-large-only mobile-drop">

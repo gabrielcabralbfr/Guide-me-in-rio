@@ -3,27 +3,32 @@ import { Injectable } from '@angular/core';
 
 import { Observable } from 'rxjs/Observable';
 
+import 'rxjs/add/observable/of';
+import 'rxjs/add/operator/map';
+
 import { Place } from './place/place.model';
 
-import * as gmaps from '../../assets/google-maps-api.js';
+import { Http } from '@angular/http';
+
 
 @Injectable()
 export class PlaceService {
 
 
-  constructor() {
+  constructor(private http: Http) {
 
   }
 
-  getPlaces(placeType, coords): Array<Place> {
-    return gmaps.GetPlacesFrom(placeType, coords);
+  getPlaces(placeType): Observable<Place[]> {
+    return this.http.get('http://localhost:3000/' + placeType)
+                    .map(response => response.json());
 
   }
 
-  async getPlaceById(id, coords): Promise<Place> {
-    const response = await gmaps.GetDetailsById(id, coords).toPromise();
+  getPlaceById(placeType, id): Observable<Place> {
+    return this.http.get('http://localhost:3000/' + placeType + '/' + id)
+                    .map(response => response.json());
 
-    return response;
   }
 
 }

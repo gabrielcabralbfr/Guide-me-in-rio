@@ -1,8 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { HttpModule } from '@angular/http';
+
+import { AgmCoreModule, MapsAPILoader} from '@agm/core';
+
 import { RouterModule, Router } from '@angular/router';
-import { FormsModule } from '@angular/forms';
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { ROUTES } from './app.routes';
 
@@ -16,11 +23,16 @@ import { FooterComponent } from './footer/footer.component';
 import { CardComponent } from './card/card.component';
 import { PlaceComponent } from './places/place/place.component';
 import { PlacesComponent } from './places/places.component';
+import { LoginComponent } from './login/login.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
+import { PlaceDetailsComponent } from './place-details/place-details.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 import { SearchPipe } from '../pipes/search.pipe';
 import { ActivePipe } from '../pipes/active.pipe';
-import { LoginComponent } from './login/login.component';
-import { PlaceDetailsComponent } from './place-details/place-details.component';
+
+import { ToastrModule } from 'ngx-toastr';
+
 
 @NgModule({
   declarations: [
@@ -34,17 +46,28 @@ import { PlaceDetailsComponent } from './place-details/place-details.component';
     ActivePipe,
     HomeComponent,
     LoginComponent,
-    PlaceDetailsComponent
+    PlaceDetailsComponent,
+    NotfoundComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     RouterModule,
     RouterModule.forRoot(ROUTES),
-    FormsModule
+    FormsModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDo3OA_oX7m9hGeEBScvsF1uP5jIPf4ARI',
+     libraries: ['places']
+   }),
+   ReactiveFormsModule,
+   ToastrModule.forRoot(),
+   BrowserAnimationsModule
   ],
   providers: [
     CardService,
-    PlaceService
+    PlaceService,
+    AgmCoreModule
   ],
   bootstrap: [AppComponent]
 })

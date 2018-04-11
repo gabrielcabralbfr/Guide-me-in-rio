@@ -1,9 +1,13 @@
 import { ActivatedRoute, Router } from '@angular/router';
 import { Place } from './../places/place/place.model';
 import { PlaceService } from './../places/place.service';
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
-import { fromPromise } from 'rxjs/observable/fromPromise';
+import {} from '@types/googlemaps';
+
+import { MapsAPILoader } from '@agm/core';
+
+import { Observable } from 'rxjs/Observable';
 
 @Component({
   selector: 'app-place-details',
@@ -14,34 +18,40 @@ export class PlaceDetailsComponent implements OnInit {
 
   place: Place;
 
+  public userLocation = {
+    lat: 0,
+    lng: 0
+  };
+
   constructor(
     private placeService: PlaceService,
     private route: ActivatedRoute,
-    private router: Router
+    private router: Router,
+    private mapsAPILoader: MapsAPILoader,
   ) {}
 
-
-  async ngOnInit() {
+  ngOnInit() {
 
     this.router.routeReuseStrategy.shouldReuseRoute = () => {
       return false;
     };
 
-    const coords = {
-      lat: -22.321,
-      long: 33.53342
-    };
+      const placeType = this.route.snapshot.paramMap.get('placeType');
+      const placeId = this.route.snapshot.paramMap.get('placeId');
 
-    // navigator.geolocation.getCurrentPosition(position => {
-      // coords.lat = position.coords.latitude;
-      // coords.long = position.coords.longitude;
-
-      const placeType = this.route.snapshot.paramMap.get('placeId');
-
-      this.place = await this.placeService.getPlaceById(placeType, coords);
-                        // .subscribe(place => this.place = place);
-
-    // });
-
+      this.placeService.getPlaceById(placeType, placeId)
+                       .subscribe(place => this.place = place);
   }
+
+  getUserLocation(): any {
+      if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition((position) => {
+            this.userLocation.lat = position.coords.latitude;
+            this.userLocation.lng = position.coords.longitude;
+          });
+      } else {
+         alert('Geolocation is not supported by this browser.');
+      }
+  }
+
 }

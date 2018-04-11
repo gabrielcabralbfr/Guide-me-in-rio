@@ -32,14 +32,16 @@ export class PlacesComponent implements OnInit {
       long: 0
     };
 
-    navigator.geolocation.getCurrentPosition(position => {
-      coords.lat = position.coords.latitude;
-      coords.long = position.coords.longitude;
+    // navigator.geolocation.getCurrentPosition(position => {
+      // coords.lat = position.coords.latitude;
+      // coords.long = position.coords.longitude;
 
       const placeType = this.route.snapshot.paramMap.get('placeType');
 
-      this.places = this.placeService.getPlaces(placeType, coords);
-    });
+      this.placeService
+      .getPlaces(placeType)
+      .subscribe(response => {this.places = response; });
+    // });
 
   }
 }

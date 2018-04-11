@@ -1,0 +1,35 @@
+
+.checked {
+  color: orange;
+}
+agm-map {
+  height: 300px;
+  width: 450px;
+}
+
+footer{
+  margin-top: 150px;
+}
+
+.rating {
+  position: absolute;
+  top: 17px;
+  left: 430px;
+  font-size: 30px;
+}
+
+div.place-detail-container {
+  position: relative;
+  margin-left: 30px;
+}
+
+.map-container {
+  position: absolute;
+  top: 275px;
+  left: 870px;
+}
+
+agm-polyline-point{
+  background-color: pink;
+}
+

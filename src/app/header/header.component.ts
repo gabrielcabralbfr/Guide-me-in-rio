@@ -8,8 +8,22 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   constructor() { }
+  public storage = window.localStorage;
+
+  userLogged(): Boolean {
+
+    if (this.storage.getItem('logged') === 'true') {
+      return true;
+    } else {
+      return false;
+    }
+  }
 
   ngOnInit() {
+  }
+
+  logout() {
+    this.storage.setItem('logged', 'false');
   }
 
 }
