@@ -87,51 +87,52 @@
   </li>
 
 </ul>
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      <a [routerLink]="['']">
+        <i class="home material-icons left">home</i>
+      </a>
 
-<nav>
-  <div class="nav-wrapper">
-    <a [routerLink]="['']">
-      <i class="home material-icons left">home</i>
-    </a>
+      <ul class="hide-on-med-and-down">
+        <!-- Dropdown Trigger -->
+        <li>
+          <a class="dropdown-button" data-activates="emergencias">Emergências
+            <i class="material-icons right arrow_drop">arrow_drop_down</i>
+          </a>
+        </li>
 
-    <ul class="hide-on-med-and-down">
-      <!-- Dropdown Trigger -->
-      <li>
-        <a class="dropdown-button" data-activates="emergencias">Emergências
-          <i class="material-icons right arrow_drop">arrow_drop_down</i>
-        </a>
-      </li>
+        <li>
+          <a class="dropdown-button" data-activates="explore">Explorar
+            <i class="material-icons right arrow_drop">arrow_drop_down</i>
+          </a>
+        </li>
 
-      <li>
-        <a class="dropdown-button" data-activates="explore">Explorar
-          <i class="material-icons right arrow_drop">arrow_drop_down</i>
-        </a>
-      </li>
+        <li>
+          <a class="dropdown-button" data-activates="eventos">Eventos
+            <i class="material-icons right arrow_drop">arrow_drop_down</i>
+          </a>
+        </li>
 
-      <li>
-        <a class="dropdown-button" data-activates="eventos">Eventos
-          <i class="material-icons right arrow_drop">arrow_drop_down</i>
-        </a>
-      </li>
+        <li>
+          <a class="dropdown-button right" data-activates="tema">Idioma
+            <i class="material-icons right arrow_drop">arrow_drop_down</i>
+          </a>
+        </li>
 
-      <li>
-        <a class="dropdown-button right" data-activates="tema">Idioma
-          <i class="material-icons right arrow_drop">arrow_drop_down</i>
-        </a>
-      </li>
+        <li class="right">
+          <a *ngIf="!userLogged()" [routerLink]="['/login']">Entrar</a>
+          <a *ngIf="userLogged()" (click)="logout()">Sair</a>
 
-      <li class="right">
-        <a *ngIf="!userLogged()" [routerLink]="['/login']">Entrar</a>
-        <a *ngIf="userLogged()" (click)="logout()">Sair</a>
-
-      </li>
-    </ul>
-    <ul class="hide-on-large-only mobile-drop">
-      <li>
-        <a class="dropdown-button" data-activates="mobile-menu">
-          <i class="material-icons">menu</i>
-        </a>
-      </li>
-    </ul>
-  </div>
-</nav>
+        </li>
+      </ul>
+      <ul class="hide-on-large-only mobile-drop">
+        <li>
+          <a class="dropdown-button" data-activates="mobile-menu">
+            <i class="material-icons">menu</i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

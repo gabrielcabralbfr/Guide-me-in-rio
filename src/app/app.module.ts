@@ -32,6 +32,7 @@ import { SearchPipe } from '../pipes/search.pipe';
 import { ActivePipe } from '../pipes/active.pipe';
 
 import { ToastrModule } from 'ngx-toastr';
+import { DirectionsMapDirective } from './place-details/place-directions.directive';
 
 
 @NgModule({
@@ -48,7 +49,8 @@ import { ToastrModule } from 'ngx-toastr';
     LoginComponent,
     PlaceDetailsComponent,
     NotfoundComponent,
-    CadastroComponent
+    CadastroComponent,
+    DirectionsMapDirective
   ],
   imports: [
     BrowserModule,

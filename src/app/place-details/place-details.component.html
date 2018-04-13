@@ -14,21 +14,28 @@
 
   </div>
   <div class="map-container">
-    <agm-map [latitude]="place?.geometry.location.lat" [longitude]="place?.geometry.location.lng" [zoom]="12" [disableDefaultUI]="false"
+    <agm-map [latitude]="place?.geometry.location.lat" [longitude]="place?.geometry.location.lng" [zoom]="15" [disableDefaultUI]="false"
       [zoomControl]="true">
 
       <agm-marker [latitude]="place?.geometry.location.lat" [longitude]="place?.geometry.location.lng" [label]="place?.name">
       </agm-marker>
 
-      <agm-polyline [visible]="true" [strokeWeight]="3"  [strokeColor]="red">
-        <agm-polyline-point  [latitude]="place?.geometry.location.lat" [longitude]="place?.geometry.location.lng">
+      <agm-marker [latitude]="userLocation?.lat" [longitude]="userLocation?.lng" label="You">
+      </agm-marker>
+
+      <agm-polyline [visible]="true" [strokeWeight]="3" strokeColor="blue">
+        <agm-polyline-point [latitude]="place?.geometry.location.lat" [longitude]="place?.geometry.location.lng">
 
         </agm-polyline-point>
 
-        <agm-polyline-point  [latitude]="userLocation.lat" [longitude]="userLocation.lng">
+        <agm-polyline-point [latitude]="userLocation?.lat" [longitude]="userLocation?.lng">
 
         </agm-polyline-point>
       </agm-polyline>
     </agm-map>
+
+    <!-- <sebm-google-map>
+      <sebm-google-map-directions [origin]="origin" [destination]="destination"></sebm-google-map-directions>
+    </sebm-google-map> -->
   </div>
 </div>

@@ -20,15 +20,45 @@ img.activator {
 }
 
 .card-row {
-  margin-top: 230px;
+  margin-top: 550px;
 }
 
 .banner-content {
   margin-top: 260px;
+  position: relative;
+  
 }
 
-.banner-text {
+.banner-text1 {
   color: #fff;
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 16px;
+  position: absolute;
+  right: 0;
+  background-color: #00000063;
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  top: -385px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.banner-container {
+  position: relative;
+}
+
+.banner-text2 {
+  color: #000;
+  font-weight: bolder;
+  font-size: 16px;
+  position: absolute;
+  right: 300px;
+  background-color: #ffffffa8;
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  top: -561px;
+  text-align: center;
+  padding-top: 70px;
 }

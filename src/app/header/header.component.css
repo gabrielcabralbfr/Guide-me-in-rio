@@ -26,7 +26,7 @@ nav .home {
   margin-left: 20px;
 }
 
-#mobile-menu{
+#mobile-menu {
   width: 150px !important;
   position: absolute;
   left: -35px !important;
@@ -37,3 +37,5 @@ nav .home {
   right: 70px;
   top: 0px;
 }
+
+
