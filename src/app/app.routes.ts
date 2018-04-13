@@ -1,3 +1,4 @@
+import { FavoritesPlaceComponent } from './user/favorites-place/favorites-place.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { Routes } from '@angular/router';
@@ -14,9 +15,15 @@ export const ROUTES: Routes = [
         component: PlacesComponent,
         data: { title: '/:placeType' }
     },
+    {
+        path: 'favorites',
+        component: FavoritesPlaceComponent,
+        canActivate: []
+    },
     {path: 'login', component: LoginComponent},
     {path: 'cadastro', component: CadastroComponent},
     {path: 'place/:placeType/:placeId', component: PlaceDetailsComponent},
     {path: '404', component: NotfoundComponent},
-    {path: '**', redirectTo: '404'}
+    {path: '**', redirectTo: '404'},
+
 ];

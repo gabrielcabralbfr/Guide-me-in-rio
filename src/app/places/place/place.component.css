@@ -39,3 +39,9 @@ p {
   width: 30px;
   height: auto;
 }
+
+
+.favorite {
+  font-size: 3rem;
+  color: #000;
+}

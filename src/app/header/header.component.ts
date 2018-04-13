@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { UserService } from './../user/user.service';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,23 +8,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  photo = this.userService.getUrlImage();
+
+  constructor(private userService: UserService) { }
   public storage = window.localStorage;
 
-  userLogged(): Boolean {
+  userIsLogged(): Boolean {
 
-    if (this.storage.getItem('logged') === 'true') {
-      return true;
-    } else {
-      return false;
-    }
+    return this.userService.userIsLogged();
   }
 
   ngOnInit() {
+    this.userIsLogged();
+
+    const user = JSON.parse(this.storage.getItem('firebaseui::rememberedAccounts'));
+
+    this.photo = user[0].photoUrl;
   }
 
   logout() {
     this.storage.setItem('logged', 'false');
+    this.userService.logout();
   }
 
 }

@@ -38,4 +38,18 @@ nav .home {
   top: 0px;
 }
 
+li .account-container {
+  margin-right: 35px;
+}
+
+li .account-container:hover, .arrow_drop:hover, .account-container img:hover {
+  cursor: pointer;
+}
+
+.account-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 8px;
+}
 

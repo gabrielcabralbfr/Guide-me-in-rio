@@ -1,14 +1,16 @@
-<h4 class="header">{{ place?.name }}
-  <span class="right place-icon">
-    <img [src]="place?.icon" alt="">
-  </span>
-</h4>
 <div class="card horizontal">
   <div class="card-image">
     <img src="http://via.placeholder.com/350x350">
   </div>
   <div class="card-stacked">
     <div class="card-content">
+        <i (click)="savePlace($event)" class="material-icons medium right favorite">favorite_border</i>
+      <h5 class="">
+        <span class=" place-icon">
+          <img [src]="place?.icon" alt="">
+        </span>
+        {{ place?.name }}
+      </h5>
       <p>
         <span class='strong'>Endereço:</span> {{ place?.vicinity }}</p>
       <p>
@@ -18,7 +20,6 @@
         <span *ngIf="place?.rating" class="fa fa-star" [ngClass]="{'checked': place?.rating >=3 }"></span>
         <span *ngIf="place?.rating" class="fa fa-star" [ngClass]="{'checked': place?.rating >=4 }"></span>
         <span *ngIf="place?.rating" class="fa fa-star" [ngClass]="{'checked': place?.rating >=5 }"></span>
-        {{ place?.rating }}
       </p>
       <p>
         <span class="strong">Status:</span>

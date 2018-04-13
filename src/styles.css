@@ -31,3 +31,11 @@ footer {
   width: 100%;
   height: var(--footer-height) !important;
 }
+
+/* .firebaseui-idp-text-long{
+  display: none !important;
+} */
+
+.firebaseui-idp-text-short, .firebaseui-idp-text-short {
+  width: 15px !important;
+}

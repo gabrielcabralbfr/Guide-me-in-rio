@@ -1,7 +1,8 @@
-import { User } from './user.model';
+import { UserService } from './../user/user.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
+import { User } from '../user/user.model';
 
 @Component({
   selector: 'app-cadastro',
@@ -10,35 +11,19 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class CadastroComponent implements OnInit {
   user: User;
-
-  constructor(private router: Router,
-              private toastr: ToastrService) {
+  constructor(private userService: UserService) {
     this.user = {
       firstName: '',
       lastName: '',
       password: '',
-      email: ''
+      email: '',
+      image: ''
     };
   }
 
-  cadastrar() {
-    const storage = window.localStorage;
-
-    storage.setItem('user', JSON.stringify(this.user));
-
-    this.toastr.success('Te levaremos para o login', 'Sucesso',
-    {
-      positionClass: 'toast-bottom-center',
-      closeButton: true,
-      easing: 'ease-in',
-      progressBar: true,
-      tapToDismiss: true
-    });
-
-    setTimeout(() => {
-    this.router.navigate(['/login']);
-    }, 2000);
-  }
-
   ngOnInit() {}
+
+  cadastrar() {
+    this.userService.cadastrar(this.user);
+  }
 }

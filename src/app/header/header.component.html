@@ -54,10 +54,10 @@
 
 <ul id="tema" class="dropdown-content">
   <li>
-    <a href="#!">Português</a>
+    <a href="#!">Dark</a>
   </li>
   <li>
-    <a href="#!">Inglês</a>
+    <a href="#!">Light</a>
   </li>
 
 </ul>
@@ -115,15 +115,29 @@
         </li>
 
         <li>
-          <a class="dropdown-button right" data-activates="tema">Idioma
+          <a class="dropdown-button right" data-activates="tema">Tema
             <i class="material-icons right arrow_drop">arrow_drop_down</i>
           </a>
         </li>
 
-        <li class="right">
-          <a *ngIf="!userLogged()" [routerLink]="['/login']">Entrar</a>
-          <a *ngIf="userLogged()" (click)="logout()">Sair</a>
+        <ul id="account" class="dropdown-content">
+          <li>
+            <a  [routerLink]="['/favorites']"> Favoritos</a>
+          </li>
+          <li>
+            <a  *ngIf="!userIsLogged()"  [routerLink]="['/login']">Entrar</a>
+            <a *ngIf="userIsLogged()" (click)="logout()">Sair</a>
+          </li>
+        </ul>
 
+        <li [hidden]="!userIsLogged()" class="right account-container">
+          <img *ngIf="photo" [src]="photo" class="dropdown-button" data-activates="account">
+          <i *ngIf="!photo" class="large material-icons dropdown-button account-icon" data-activates="account">account_circle</i>
+          <i class="material-icons right arrow_drop dropdown-button" data-activates="account">arrow_drop_down</i>
+        </li>
+
+        <li class="right" [hidden]="userIsLogged()">
+          <a [routerLink]="['/login']">Entrar</a>
         </li>
       </ul>
       <ul class="hide-on-large-only mobile-drop">

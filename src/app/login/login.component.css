@@ -1,5 +1,28 @@
 #form-container{
-    margin: 10% auto;
-    max-width: 75%;
+    margin: 3% auto;
+    max-width: 35%;
+    padding: 30px;
+    border: 1px solid #dbdcdc;
+    box-shadow: 2px 2px 15px #dbdcdd;
 }
 
+hr {
+    clear: both;
+    margin-top: 90px;
+}
+
+.hr-line{
+    position: relative;
+}
+
+span.or{
+    position: absolute;
+    right: 45%;
+    top: -10px;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.firebaseui-idp-text-long{
+    display: none !important;
+}
