@@ -4,7 +4,10 @@
   </div>
   <div class="card-stacked">
     <div class="card-content">
-        <i (click)="savePlace($event)" class="material-icons medium right favorite">favorite_border</i>
+      <!-- <i id="favorite-icon" (click)="addOrRemovePlace($event, place)" class="material-icons medium right favorite">favorite_border</i> -->
+      <div class="icon-container" (click)="addOrRemovePlace($event, place)">
+        <i class="far fa-heart fa-2x right" [ngClass]="{'fas' : isFavorited == true}"></i>
+      </div>
       <h5 class="">
         <span class=" place-icon">
           <img [src]="place?.icon" alt="">

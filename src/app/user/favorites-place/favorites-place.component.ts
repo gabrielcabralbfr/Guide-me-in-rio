@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Place } from '../../places/place/place.model';
 
+import { from } from 'rxjs/observable/from';
+import { Observable } from 'rxjs/Observable';
+
 @Component({
   selector: 'app-favorites-place',
   templateUrl: './favorites-place.component.html',
@@ -8,14 +11,19 @@ import { Place } from '../../places/place/place.model';
 })
 export class FavoritesPlaceComponent implements OnInit {
 
-  favorites: Place[];
+  favorites: Observable<{}>;
+
+  teste: Observable<{}>;
 
   constructor() { }
 
   ngOnInit() {
     const storage = window.localStorage;
-    this.favorites = JSON.parse(storage.getItem('favorites'));
+    // this.favorites = <Place[]> from(JSON.parse(storage.getItem('favoritePlaces')));
 
+    this.favorites = JSON.parse(storage.getItem('favoritePlaces'));
+
+    // this.favorites.subscribe(val => this.favorites = val);
   }
 
 }

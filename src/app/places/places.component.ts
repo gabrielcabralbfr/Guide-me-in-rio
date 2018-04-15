@@ -27,21 +27,11 @@ export class PlacesComponent implements OnInit {
     this.router.routeReuseStrategy.shouldReuseRoute = () => {
       return false;
     };
-    const coords = {
-      lat: 0,
-      long: 0
-    };
 
-    // navigator.geolocation.getCurrentPosition(position => {
-      // coords.lat = position.coords.latitude;
-      // coords.long = position.coords.longitude;
+    const placeType = this.route.snapshot.paramMap.get('placeType');
 
-      const placeType = this.route.snapshot.paramMap.get('placeType');
-
-      this.placeService
-      .getPlaces(placeType)
-      .subscribe(response => {this.places = response; });
-    // });
-
+    this.placeService.getPlaces(placeType).subscribe(response => {
+      this.places = response;
+    });
   }
 }

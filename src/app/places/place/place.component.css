@@ -41,7 +41,7 @@ p {
 }
 
 
-.favorite {
-  font-size: 3rem;
-  color: #000;
+.fa-heart{
+  color: red;
+  cursor: pointer;
 }

@@ -1,3 +1,5 @@
-<p>
-  favorites-place works!
-</p>
+<div class="col s12 m6 l6 xl6 places-panel">
+  <div *ngFor="let place of favorites | searchPipe: searchText | activePipe: activeSearch">
+    <app-place [place]="place"></app-place>
+  </div>
+</div>
