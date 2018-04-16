@@ -8,6 +8,9 @@ import { PlaceService } from './place.service';
 
 import { SearchPipe } from '../../pipes/search.pipe';
 import { ActivePipe } from '../../pipes/active.pipe';
+import { RatingPipe } from '../../pipes/rating.pipe';
+import { AddressPipe } from '../../pipes/address.pipe';
+
 
 @Component({
   selector: 'app-places',
@@ -24,6 +27,7 @@ export class PlacesComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+
     this.router.routeReuseStrategy.shouldReuseRoute = () => {
       return false;
     };

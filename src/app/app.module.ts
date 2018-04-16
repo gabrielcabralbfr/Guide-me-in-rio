@@ -31,6 +31,10 @@ import { UserComponent } from './user/user.component';
 
 import { SearchPipe } from '../pipes/search.pipe';
 import { ActivePipe } from '../pipes/active.pipe';
+import { RatingPipe } from '../pipes/rating.pipe';
+import { AddressPipe } from '../pipes/address.pipe';
+
+
 
 import { DirectionsMapDirective } from './place-details/place-directions.directive';
 
@@ -81,6 +85,8 @@ const firebaseUiAuthConfig: FirebaseUIAuthConfig = {
     PlacesComponent,
     SearchPipe,
     ActivePipe,
+    RatingPipe,
+    AddressPipe,
     HomeComponent,
     LoginComponent,
     PlaceDetailsComponent,

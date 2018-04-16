@@ -61,6 +61,7 @@
 
   </script>
   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
   <script>
     $(window).scroll(function () {
       if ($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
@@ -72,7 +73,6 @@
     });
 
   </script>
-
   <script>
     function smoothscroll() {
       var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
@@ -82,7 +82,23 @@
       }
     }
 
+    function changeTheme(element) {
+      switch (element.innerHTML) {
+        case 'Dark':
+          document.body.style.setProperty('--theme-nav-color', '#000');
+          document.body.style.setProperty('--text-color', '#fff');
+          // document.body.style.setProperty('--body-bg-color', '#fff');
+          break;
+        case 'Light':
+          document.body.style.setProperty('--theme-nav-color', 'transparent');
+          document.body.style.setProperty('--text-color', '#000');
+          // document.body.style.setProperty('--body-bg-color', '#dedede');
+          break;
+      }
+    }
+
   </script>
+
 </body>
 
 </html>

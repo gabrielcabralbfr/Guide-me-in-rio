@@ -45,3 +45,7 @@ p {
   color: red;
   cursor: pointer;
 }
+
+.card-action a {
+  color: #039be5 !important;
+}

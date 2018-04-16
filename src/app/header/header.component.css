@@ -54,3 +54,7 @@ li .account-container:hover,
   border-radius: 50%;
   margin-top: 8px;
 }
+
+ul * {
+  color: pink;
+}

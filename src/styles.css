@@ -1,15 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
 :root {
-  --theme-bg-color: #000;
-  --body-bg-color: #f1f1f1;
+  --theme-nav-color: #000;
+  --body-bg-color: #fff;
   --footer-height: 250px;
+  --text-color: #fff;
 }
 
 .banner-content .btn,
 footer,
 nav {
-  background-color: var(--theme-bg-color) !important;
+  background-color: var(--theme-nav-color) !important;
 }
 
 body,
@@ -19,6 +20,7 @@ html {
   padding-bottom: var(--footer-height) !important;
   font-family: Roboto, "Open Sans", sans-serif !important;
   line-height: 1.15;
+  background-color: var(--body-bg-color);
 }
 main {
   padding-bottom: var(--footer-height) !important;
@@ -32,6 +34,13 @@ main {
 footer {
   width: 100%;
   height: var(--footer-height) !important;
+  border-top: 1px #dedede solid !important;
+  box-shadow: 2px -5px 10px #e1e1e1;
+}
+
+footer *,
+.navbar * {
+  color: var(--text-color) !important;
 }
 
 .firebaseui-idp-text-short,
@@ -40,6 +49,14 @@ footer {
 }
 .wrapper {
   position: relative;
+}
+
+.page-footer .footer-copyright {
+  background-color: inherit !important;
+}
+
+.dropdown-content li > a {
+  color: #1010106e  !important;
 }
 
 /* GOOGLE TRANSLATE PLUGIN */
@@ -70,25 +87,4 @@ footer {
   background-color: #82828a14;
 }
 
-.goog-te-menu2 {
-  max-width: 100%;
-}
-
-.goog-te-gadget-simple .goog-te-menu-value {
-  color: #000;
-}
-
-.goog-te-menu2 {
-  /*the element that contains the table of options*/
-  max-width: 100% !important;
-  overflow: scroll !important;
-  box-sizing: border-box !important;
-  height: auto !important;
-  background-color: #82828a14 !important;
-}
-.goog-te-menu2-item div,
-.goog-te-menu2-item:link div,
-.goog-te-menu2-item:visited div,
-.goog-te-menu2-item:active div {
-  color: #f317cd !important;
-}
+/* GOOGLE TRANSLATE PLUGIN */

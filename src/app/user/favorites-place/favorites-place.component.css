@@ -2,7 +2,7 @@
 .nothing-to-show-container {
   width: 60%;
   margin: 0 auto;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .nothing-to-show-container {
@@ -11,4 +11,10 @@
   padding: 25px;
   height: 100%;
   margin-bottom: 10%;
+}
+.margin-left  {
+  margin-left: 20px;
+}
+.fa-frown{
+  color: #ff00005c;
 }

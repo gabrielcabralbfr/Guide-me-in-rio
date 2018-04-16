@@ -1,80 +1,99 @@
 <div class="row">
   <div class="col s12 m4 l4 xl4 filter-panel">
     <h4>Filtros</h4>
-    <div class="input-field">
-      <input id="icon_prefix" type="text" class="validate" [(ngModel)]="searchText">
-      <label for="icon_prefix">Busca por nome</label>
+    <div class="filter">
+      <div class="filter-title">
+        <i class="fas fa-text-width"></i>
+        <span class="margin-left">Nome</span>
+      </div>
+      <div class="filter-body">
+        <div class="input-field">
+          <input id="icon_prefix" type="text" class="validate" [(ngModel)]="searchText">
+          <label for="icon_prefix">Filtrar por nome</label>
 
-    </div>
-    <ul class="collapsible" data-collapsible="expandable" materialize="collapsible">
-      <li>
-        <div class="collapsible-header">
-          <i class="material-icons">place</i>Distância
-          <i class="material-icons expand-right">expand_more</i>
         </div>
-        <div class="collapsible-body">
-          <p class="range-field">
-            <span>Raio (em metros)</span>
-            <input type="range" id="radius" min="0" max="1000" />
-          </p>
-        </div>
-      </li>
-      <li>
-        <div class="collapsible-header">
-          <i class="material-icons">event_available</i>Status
-          <i class="material-icons expand-right">expand_more</i>
-        </div>
-        <div class="collapsible-body">
-          <p>
-            <input type="radio" id="open" [(ngModel)]="activeSearch" value='true' />
-            <label for="open">Aberto</label>
-          </p>
-          <p>
-            <input type="radio" id="closed" [(ngModel)]="activeSearch" value='false' />
-            <label for="closed">Fechado</label>
-          </p>
-        </div>
-      </li>
-      <li>
-        <div class="collapsible-header">
-          <i class="material-icons">star</i>Avaliação
-          <i class="material-icons expand-right">expand_more</i>
-        </div>
-        <div class="collapsible-body">
-          <p>
-            <input type="checkbox" class="filled-in" id="filled-in-box" />
-            <label for="filled-in-box">1</label>
-          </p>
-          <p>
-            <input type="checkbox" class="filled-in" id="filled-in-box2" />
-            <label for="filled-in-box2">2</label>
-          </p>
-          <p>
-            <input type="checkbox" class="filled-in" id="filled-in-box3" />
-            <label for="filled-in-box3">3</label>
-          </p>
-          <p>
-            <input type="checkbox" class="filled-in" id="filled-in-box4" />
-            <label for="filled-in-box4">4</label>
-          </p>
-          <p>
-            <input type="checkbox" class="filled-in" id="filled-in-box5" />
-            <label for="filled-in-box5">5</label>
-          </p>
-        </div>
-      </li>
-    </ul>
-  </div>
-  <div class="row">
-    <div class="col s12 m6 l6 xl6 places-panel">
-      <div *ngFor="let place of places | searchPipe: searchText | activePipe: activeSearch">
-        <app-place *ngIf="place.rating && place.opening_hours" [place]="place"></app-place>
       </div>
     </div>
-    <div class="col s12 m4 l4 xl4">
-      <div id="map"></div>
+
+    <div class="filter">
+      <div class="filter-title">
+        <i class="fas fa-address-card"></i>
+        <span class="margin-left">Endereço</span>
+      </div>
+      <div class="filter-body">
+        <div class="input-field">
+          <input id="icon_prefix" type="text" class="validate" [(ngModel)]="addressSearch">
+          <label for="icon_prefix">Filtrar por endereço</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="filter">
+      <div class="filter-title">
+        <i class="fas fa-clock"></i>
+        <span class="margin-left">Status</span>
+      </div>
+      <div class="filter-body">
+        <p>
+          <input type="radio" id="open" [(ngModel)]="activeSearch" value='true' />
+          <label for="open">Aberto</label>
+        </p>
+        <p>
+          <input type="radio" id="closed" [(ngModel)]="activeSearch" value='false' />
+          <label for="closed">Fechado</label>
+        </p>
+      </div>
+    </div>
+
+    <div class="filter">
+      <div class="filter-title">
+        <i class="fas fa-star"></i>
+        <span class="margin-left">Avaliação</span>
+      </div>
+      <div class="filter-body">
+        <p>
+          <input type="radio" id="rating1" [(ngModel)]="rating" value='1' />
+          <label for="rating1">1 +</label>
+        </p>
+        <p>
+          <input type="radio" id="rating2" [(ngModel)]="rating" value='2' />
+          <label for="rating2">2 +</label>
+        </p>
+        <p>
+          <input type="radio" id="rating3" [(ngModel)]="rating" value='3' />
+          <label for="rating3">3 +</label>
+        </p>
+        <p>
+          <input type="radio" id="rating4" [(ngModel)]="rating" value='4' />
+          <label for="rating4">4 +</label>
+        </p>
+        <p>
+          <input type="radio" id="rating5" [(ngModel)]="rating" value='5' />
+          <label for="rating5">5</label>
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <div *ngIf="places" class="col s12 m6 l6 xl6 places-panel">
+    <div *ngFor="let place of places | searchPipe: searchText | activePipe: activeSearch | ratingPipe: rating | addressPipe: addressSearch">
+      <app-place *ngIf="place.rating && place.opening_hours && place !== -1" [place]="place"></app-place>
     </div>
   </div>
+
+  <div *ngIf="!places
+  || (places | searchPipe: searchText | activePipe: activeSearch | addressPipe: addressSearch | ratingPipe: rating).length === 0"
+
+   class="col s12 m6 l6 xl6">
+    <div class="no-result-container">
+      <h4>
+        <span>
+          <i class="fas fa-2x fa-search"></i>
+        </span> Desculpe!</h4>
+      <h5>Não encontramos nenhum resultado</h5>
+    </div>
+  </div>
+
 
 
 </div>
