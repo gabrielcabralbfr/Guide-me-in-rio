@@ -1,3 +1,11 @@
 .float-left {
     float: left;
 }
+
+.nf-container{
+    margin-bottom: 13%;
+}
+
+.margin-left {
+    margin-left: 355px;
+}

@@ -64,6 +64,10 @@
 
 <ul id="mobile-menu" class="dropdown-content">
   <li>
+    <a [routerLink]="['/favorites']"> Favoritos</a>
+  </li>
+  <li class="divider"></li>
+  <li>
     <a [routerLink]="['/place', 'restaurant']">Restaurantes</a>
   </li>
   <li>
@@ -85,9 +89,24 @@
   <li>
     <a [routerLink]="['/place', 'hospital']">Hospitais</a>
   </li>
+  <li class="divider"></li>
+  <li>
+    <a *ngIf="!userIsLogged()" [routerLink]="['/login']">Entrar</a>
+    <a *ngIf="userIsLogged()" (click)="logout()">Sair</a>
+  </li>
 
 </ul>
-<div class="navbar-fixed">
+
+<ul id="account" class="dropdown-content">
+  <li>
+    <a [routerLink]="['/favorites']"> Favoritos</a>
+  </li>
+  <li>
+    <a *ngIf="!userIsLogged()" [routerLink]="['/login']">Entrar</a>
+    <a *ngIf="userIsLogged()" (click)="logout()">Sair</a>
+  </li>
+</ul>
+<div class="navbar">
   <nav>
     <div class="nav-wrapper">
       <a [routerLink]="['']">
@@ -120,16 +139,6 @@
           </a>
         </li>
 
-        <ul id="account" class="dropdown-content">
-          <li>
-            <a  [routerLink]="['/favorites']"> Favoritos</a>
-          </li>
-          <li>
-            <a  *ngIf="!userIsLogged()"  [routerLink]="['/login']">Entrar</a>
-            <a *ngIf="userIsLogged()" (click)="logout()">Sair</a>
-          </li>
-        </ul>
-
         <li [hidden]="!userIsLogged()" class="right account-container">
           <img *ngIf="photo" [src]="photo" class="dropdown-button" data-activates="account">
           <i *ngIf="!photo" class="large material-icons dropdown-button account-icon" data-activates="account">account_circle</i>
@@ -146,6 +155,7 @@
             <i class="material-icons">menu</i>
           </a>
         </li>
+
       </ul>
     </div>
   </nav>

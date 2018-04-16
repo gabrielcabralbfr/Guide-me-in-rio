@@ -17,6 +17,8 @@ html {
   width: 100%;
   height: 100%;
   padding-bottom: var(--footer-height) !important;
+  font-family: Roboto, "Open Sans", sans-serif !important;
+  line-height: 1.15;
 }
 main {
   padding-bottom: var(--footer-height) !important;
@@ -32,10 +34,61 @@ footer {
   height: var(--footer-height) !important;
 }
 
-/* .firebaseui-idp-text-long{
-  display: none !important;
-} */
-
-.firebaseui-idp-text-short, .firebaseui-idp-text-short {
+.firebaseui-idp-text-short,
+.firebaseui-idp-text-short {
   width: 15px !important;
+}
+.wrapper {
+  position: relative;
+}
+
+/* GOOGLE TRANSLATE PLUGIN */
+
+.goog-te-gadget {
+  font-family: Roboto, "Open Sans", sans-serif !important;
+  text-transform: uppercase;
+}
+
+.goog-te-gadget-icon {
+  display: none !important;
+}
+
+#google_translate_element {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+}
+
+.goog-te-gadget-simple {
+  padding: 8px !important;
+  border-radius: 4px !important;
+  font-size: 1rem !important;
+  line-height: 2rem !important;
+  display: inline-block;
+  cursor: pointer;
+  zoom: 1;
+  background-color: #82828a14;
+}
+
+.goog-te-menu2 {
+  max-width: 100%;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value {
+  color: #000;
+}
+
+.goog-te-menu2 {
+  /*the element that contains the table of options*/
+  max-width: 100% !important;
+  overflow: scroll !important;
+  box-sizing: border-box !important;
+  height: auto !important;
+  background-color: #82828a14 !important;
+}
+.goog-te-menu2-item div,
+.goog-te-menu2-item:link div,
+.goog-te-menu2-item:visited div,
+.goog-te-menu2-item:active div {
+  color: #f317cd !important;
 }

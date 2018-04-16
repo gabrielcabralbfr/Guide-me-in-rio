@@ -1,4 +1,12 @@
-<div class="col s12 m6 l6 xl6 places-panel">
+<div *ngIf="favorites.length <= 0" class="nothing-to-show-container">
+  <h3><i class="fas fa-frown"></i>Você ainda não tem lugares favoritos</h3>
+  <p>Por que não procura por lugares legais e os favorita para que possam aparecer aqui?</p>
+</div>
+
+
+<div *ngIf="favorites.length > 0" class="col s12 m6 l6 xl6 places-panel">
+  <h3>Seus lugares favoritos estão aqui</h3>
+
   <div *ngFor="let place of favorites | searchPipe: searchText | activePipe: activeSearch">
     <app-place [place]="place"></app-place>
   </div>

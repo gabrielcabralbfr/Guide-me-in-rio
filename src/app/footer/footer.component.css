@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+}
+.scroll-top-container {
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  transition-duration: 0.7s;
+}
+
+.scroll-top-container:hover {
+  -ms-transform: scale(1.4, 1.4); /* IE 9 */
+  -webkit-transform: scale(1.4, 1.4); /* Safari */
+  transform: scale(1.4, 1.4); /* Standard syntax */
+  transition-duration: 0.7s;
+}
+.footer-copyright a {
+  margin: 8px;
+}
+
+.footer-copyright {
+  padding-bottom: 0 !important;
+  box-sizing: unset !important;
+  height: 35px !important;
+}

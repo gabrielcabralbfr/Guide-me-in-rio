@@ -1,4 +1,14 @@
-.places-panel {
-    width: 60%;
-    margin: 0 auto;
+.places-panel,
+.nothing-to-show-container {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+.nothing-to-show-container {
+  border: 1px #dedede solid;
+  background-color: #e1e1e14d;
+  padding: 25px;
+  height: 100%;
+  margin-bottom: 10%;
 }

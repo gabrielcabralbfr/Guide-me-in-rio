@@ -1,31 +1,64 @@
 <div class="container">
   <div class="row">
     <div class="col l6 s12">
-      <h5 class="white-text">Footer Content</h5>
-      <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+      <h5 class="white-text">Guide App</h5>
+      <p class="grey-text text-lighten-4">Melhorando sua experiência nas cidades que visitar!</p>
     </div>
     <div class="col l4 offset-l2 s12">
-      <h5 class="white-text">Links</h5>
+      <h5 class="white-text">Mapa do site</h5>
       <ul>
-        <li>
-          <a class="grey-text text-lighten-3" href="#!">Link 1</a>
-        </li>
-        <li>
-          <a class="grey-text text-lighten-3" href="#!">Link 2</a>
-        </li>
-        <li>
-          <a class="grey-text text-lighten-3" href="#!">Link 3</a>
-        </li>
-        <li>
-          <a class="grey-text text-lighten-3" href="#!">Link 4</a>
-        </li>
+        <div class="col l4">
+          <li>
+            <a class="grey-text text-lighten-3" [routerLink]="['/favorites']"> Favoritos</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" [routerLink]="['/place', 'restaurant']">Restaurantes</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" [routerLink]="['/place', 'bar']">Bares</a>
+          </li>
+
+          <li>
+            <a class="grey-text text-lighten-3" [routerLink]="['/place', 'night_club']">Boates</a>
+          </li>
+        </div>
+        <div class="col l4">
+          <li>
+            <a class="grey-text text-lighten-3" [routerLink]="['/place', 'police']">Delegacias</a>
+          </li>
+
+          <li>
+            <a class="grey-text text-lighten-3" [routerLink]="['/place', 'fire_station']">Bombeiros</a>
+          </li>
+
+          <li>
+            <a class="grey-text text-lighten-3" [routerLink]="['/place', 'hospital']">Hospitais</a>
+          </li>
+        </div>
       </ul>
     </div>
+  </div>
+  <div class="scroll-top-container" onclick="smoothscroll()">
+    <i class="fas fa-2x fa-arrow-up"></i>
   </div>
 </div>
 <div class="footer-copyright">
   <div class="container">
-    © 2014 Copyright Text
-    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    © 2018 Copyright
+    <a href="https://www.facebook.com/GabrielCabralBFR" target="_blank" class="grey-text text-lighten-4 right">
+      <i class="fab fa-2x fa-facebook-square"></i>
+    </a>
+
+    <a href="https://www.instagram.com/cabralgb/" target="_blank" class="grey-text text-lighten-4 right">
+      <i class="fab fa-2x fa-instagram"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/developergabriel/" target="_blank" class="grey-text text-lighten-4 right">
+      <i class="fab fa-2x fa-linkedin-in"></i>
+    </a>
+
+    <a href="https://github.com/gabrielcabralbfr" target="_blank" class="grey-text text-lighten-4 right">
+      <i class="fab fa-2x fa-github"></i>
+    </a>
   </div>
 </div>
