@@ -59,6 +59,10 @@ footer *,
   color: #1010106e  !important;
 }
 
+.breadcrumb {
+  text-transform: capitalize;
+}
+
 /* GOOGLE TRANSLATE PLUGIN */
 
 .goog-te-gadget {

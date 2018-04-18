@@ -1,3 +1,12 @@
+<nav>
+    <div class="nav-wrapper">
+      <div class="col s12">
+        <a [routerLink]="['']" class="breadcrumb">Home</a>
+        <a  class="breadcrumb">Favoritos</a>
+      </div>
+    </div>
+  </nav>
+
 <div *ngIf="favorites.value.length <= 0" class="nothing-to-show-container">
   <h3><i class="fas fa-frown"></i><span class="margin-left">Você ainda não tem lugares favoritos</span></h3>
   <h5>Por que não procura por lugares legais e os favorita para que possam aparecer aqui?</h5>

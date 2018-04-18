@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CardService } from './card/card.service';
 import { PlaceService } from './places/place.service';
 import { UserService } from './user/user.service';
+import { GmapsService } from './gmaps.service';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -118,7 +119,8 @@ const firebaseUiAuthConfig: FirebaseUIAuthConfig = {
     PlaceService,
     AgmCoreModule,
     GoogleMapsAPIWrapper,
-    UserService
+    UserService,
+    GmapsService
   ],
   bootstrap: [AppComponent]
 })

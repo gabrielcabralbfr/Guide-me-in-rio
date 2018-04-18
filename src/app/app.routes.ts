@@ -25,6 +25,6 @@ export const ROUTES: Routes = [
     {path: 'cadastro', component: CadastroComponent},
     {path: 'place/:placeType/:placeId', component: PlaceDetailsComponent},
     {path: '404', component: NotfoundComponent},
-    {path: '**', redirectTo: '404'},
+    // {path: '**', redirectTo: '404'},
 
 ];

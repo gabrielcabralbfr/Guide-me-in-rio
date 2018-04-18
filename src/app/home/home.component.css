@@ -1,6 +1,5 @@
 #banner {
   background: url("../../assets/bg-index.jpg") no-repeat center right fixed;
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,7 +10,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  margin-top: 64px;
 }
 
 img.activator {
@@ -26,7 +25,6 @@ img.activator {
 .banner-content {
   margin-top: 260px;
   position: relative;
-  
 }
 
 .banner-text1 {

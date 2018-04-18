@@ -1,4 +1,13 @@
 <div class="container-all">
+  <nav>
+    <div class="nav-wrapper">
+      <div class="col s12">
+        <a href="#!" class="breadcrumb">Home</a>
+        <a [routerLink]="['/place', place.types[0]]" class="breadcrumb">{{ place?.types[0] }}</a>
+        <a class="breadcrumb">{{ place?.name }}</a>
+      </div>
+    </div>
+  </nav>
   <div class="place-detail-container">
     <h1>{{ place?.name }}</h1>
     <h6>Categoria: {{ place?.types[0] }}</h6>

@@ -1,5 +1,17 @@
 <div class="row">
+  <nav>
+    <div class="nav-wrapper">
+      <div class="col s12">
+        <a [routerLink]="['']" class="breadcrumb">Home</a>
+        <!-- <a class="breadcrumb">{{ places[0].types[0] }}</a> -->
+      </div>
+    </div>
+  </nav>
   <div class="col s12 m4 l4 xl4 filter-panel">
+    <div id="map"></div>
+    <!-- <div *ngFor="let place of nearbyPlaces">
+      {{ place.name }}
+    </div> -->
     <h4>Filtros</h4>
     <div class="filter">
       <div class="filter-title">
@@ -83,8 +95,7 @@
 
   <div *ngIf="!places
   || (places | searchPipe: searchText | activePipe: activeSearch | addressPipe: addressSearch | ratingPipe: rating).length === 0"
-
-   class="col s12 m6 l6 xl6">
+    class="col s12 m6 l6 xl6">
     <div class="no-result-container">
       <h4>
         <span>
